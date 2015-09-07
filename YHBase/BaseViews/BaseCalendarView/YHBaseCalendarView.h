@@ -10,6 +10,7 @@
 
 @protocol YHBaseCalendarViewDelegate<NSObject>
 -(void)YHBaseCalendarViewSelectAtDateModel:(YHBaseDateModel *)dateModel;
+-(void)YHBaseCalendarViewScrollEndToDate:(YHBaseDateModel *)dateModel;
 @end
 
 

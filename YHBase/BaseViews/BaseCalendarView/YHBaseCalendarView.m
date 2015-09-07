@@ -184,6 +184,13 @@
         [self creatViewWithData:[YHBaseDateTools getNextMonthframDate:_currentDate] onView:_bodyViewR];
     }
     scrollView.userInteractionEnabled=YES;
+    if ([self.delegate respondsToSelector:@selector(YHBaseCalendarViewScrollEndToDate:)]) {
+        YHBaseDateModel * model = [[YHBaseDateModel alloc]init];
+        model.year = [NSString stringWithFormat:@"%d",[_currentDate getYear]];
+        model.month = [NSString stringWithFormat:@"%d",[_currentDate getMonth]];
+        model.day = [NSString stringWithFormat:@"%d",[_currentDate getDay]];
+        [self.delegate YHBaseCalendarViewScrollEndToDate:model];
+    }
 }
 
 
