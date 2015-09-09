@@ -13,6 +13,7 @@
  */
 
 #import "YHBaseViewController.h"
+#import "YHBaseTableView.h"
 /**
  *加载cell的模型方法
  */

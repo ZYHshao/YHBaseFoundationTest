@@ -12,28 +12,28 @@
 /**
  *准备开始刷新的文字
  */
-__PROPERTY_NO_STRONG__(NSString *, prepareRefreshText);
+@property(nonatomic,strong)NSString * prepareRefreshText;
 /**
  *可以开始刷新的文字
  */
-__PROPERTY_NO_STRONG__(NSString *, shouldRefreshText);
+@property(nonatomic,strong)NSString * shouldRefreshText;
 /**
  *已经开始刷新的文字
  */
-__PROPERTY_NO_STRONG__(NSString *, alreadyRefreshText);
+@property(nonatomic,strong)NSString * alreadyRefreshText;
 
 /**
  *准备开始加载的文字
  */
-__PROPERTY_NO_STRONG__(NSString *, prepareReloadText);
+@property(nonatomic,strong)NSString * prepareReloadText;
 /**
  *可以开始加载的文字
- */
-__PROPERTY_NO_STRONG__(NSString *, shouldReloadText);
+*/
+@property(nonatomic,strong)NSString * shouldReloadText;
 /**
  *已经开始加载的文字
  */
-__PROPERTY_NO_STRONG__(NSString *, alreadyReloadText);
+@property(nonatomic,strong)NSString * alreadyReloadText;
 
 //允许刷新
 -(void)shouldRefresh:(void (^)())block;
