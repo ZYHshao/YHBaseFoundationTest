@@ -56,7 +56,7 @@
 		CE89DC0A1B9D60560006B123 /* YHBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE89DBE21B9D60560006B123 /* YHBaseView.m */; };
 		CE89DC0F1B9D63BA0006B123 /* YHTopicColorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE89DC0E1B9D63BA0006B123 /* YHTopicColorManager.m */; };
 		CEE5C5BD1B9FD18800B9AD22 /* UIView+Responder.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE5C5BC1B9FD18800B9AD22 /* UIView+Responder.m */; };
-		CEE5C6011BA0097800B9AD22 /* YHBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE5C6001BA0097800B9AD22 /* YHBaseTableViewController.m */; };
+		CEE5C6041BA00DBE00B9AD22 /* YHBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE5C6031BA00DBE00B9AD22 /* YHBaseTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -176,8 +176,8 @@
 		CE89DC0E1B9D63BA0006B123 /* YHTopicColorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHTopicColorManager.m; sourceTree = "<group>"; };
 		CEE5C5BB1B9FD18800B9AD22 /* UIView+Responder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Responder.h"; sourceTree = "<group>"; };
 		CEE5C5BC1B9FD18800B9AD22 /* UIView+Responder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Responder.m"; sourceTree = "<group>"; };
-		CEE5C5FF1BA0097800B9AD22 /* YHBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBaseTableViewController.h; sourceTree = "<group>"; };
-		CEE5C6001BA0097800B9AD22 /* YHBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHBaseTableViewController.m; sourceTree = "<group>"; };
+		CEE5C6021BA00DBE00B9AD22 /* YHBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBaseTableViewController.h; sourceTree = "<group>"; };
+		CEE5C6031BA00DBE00B9AD22 /* YHBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHBaseTableViewController.m; sourceTree = "<group>"; };
 		DBFAC3F747F22811425A971B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -326,7 +326,8 @@
 		CE89DB8B1B9D60560006B123 /* BaseController */ = {
 			isa = PBXGroup;
 			children = (
-				CEE5C5FE1BA0097800B9AD22 /* BaseTableViewController */,
+				CEE5C6021BA00DBE00B9AD22 /* YHBaseTableViewController.h */,
+				CEE5C6031BA00DBE00B9AD22 /* YHBaseTableViewController.m */,
 				CE89DB8C1B9D60560006B123 /* YHBaseNavigationController.h */,
 				CE89DB8D1B9D60560006B123 /* YHBaseNavigationController.m */,
 				CE89DB8E1B9D60560006B123 /* YHBaseViewController.h */,
@@ -498,15 +499,6 @@
 			path = BaseSelfDrawView;
 			sourceTree = "<group>";
 		};
-		CEE5C5FE1BA0097800B9AD22 /* BaseTableViewController */ = {
-			isa = PBXGroup;
-			children = (
-				CEE5C5FF1BA0097800B9AD22 /* YHBaseTableViewController.h */,
-				CEE5C6001BA0097800B9AD22 /* YHBaseTableViewController.m */,
-			);
-			path = BaseTableViewController;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -656,7 +648,7 @@
 				CE89DBF21B9D60560006B123 /* YHBaseTimerNode.m in Sources */,
 				CE89DB5E1B9D5F8D0006B123 /* AppDelegate.m in Sources */,
 				CE89DBEB1B9D60560006B123 /* YHBaseError.m in Sources */,
-				CEE5C6011BA0097800B9AD22 /* YHBaseTableViewController.m in Sources */,
+				CEE5C6041BA00DBE00B9AD22 /* YHBaseTableViewController.m in Sources */,
 				CE89DBFF1B9D60560006B123 /* RCLabel.m in Sources */,
 				CE89DC021B9D60560006B123 /* YHBaseButton.m in Sources */,
 				CE89DBEA1B9D60560006B123 /* YHBaseViewController.m in Sources */,

@@ -99,4 +99,10 @@ typedef enum {
  *是否开启点击头视图 进行分区的收开
  */
 @property(nonatomic,assign)BOOL isAutoOpenSection;
+
+/**
+ *重载数据
+ */
+-(void)reloadData;
+
 @end

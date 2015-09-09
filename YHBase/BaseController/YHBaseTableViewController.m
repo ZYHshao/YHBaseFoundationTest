@@ -162,7 +162,33 @@
     [_tableView reloadSections:[NSIndexSet indexSetWithIndex:section] withRowAnimation:UITableViewRowAnimationAutomatic];
     [_tableView endUpdates];
 }
+-(void)reloadData{
+    [_privateDataArray removeAllObjects];
+    for (int i=0; i<_dataArray.count; i++) {
+        NSMutableArray * subArray = [[NSMutableArray alloc]init];
+        [subArray addObjectsFromArray:_dataArray[i]];
+        [_privateDataArray addObject:subArray];
+    }
+    //为头视图加添手势
+    //默认有效
+    for (UIView * view in _headArray) {
+        if (_clickHeadArray.count<_headArray.count) {
+            for (UITapGestureRecognizer* tap in _clickHeadArray) {
+                [tap.view removeGestureRecognizer:tap];
+            }
+            [_clickHeadArray removeAllObjects];
+            UITapGestureRecognizer * _clickHead = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(openOrCloseSecetion:)];
+            [view addGestureRecognizer:_clickHead];
+            [_clickHeadArray addObject:_clickHead];
+            if (!_isAutoOpenSection) {
+                _clickHead.enabled=NO;
+            }
 
+        }
+    }
+
+    [_tableView reloadData];
+}
 /*
 #pragma mark - Navigation
 
