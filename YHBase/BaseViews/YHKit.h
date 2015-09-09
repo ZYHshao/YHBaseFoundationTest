@@ -10,7 +10,6 @@
 #define StudyApp_YHKit_h
 #import "YHBaseButton.h"
 #import "YHBaseLabel.h"
-#import "YHBaseHeader.h"
 #import "YHBaseAlertView.h"
 #import "YHBaseActivityIndicatorView.h"
 #import "YHBaseTableView.h"

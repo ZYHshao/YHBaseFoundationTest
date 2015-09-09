@@ -8,7 +8,7 @@
 
 #ifndef StudyApp_YHBaseHeader_h
 #define StudyApp_YHBaseHeader_h
-
+#import "YHKit.h"
 #import "YHBaseStringTools.h"
 #import "YHBaseJOSNAnalytical.h"
 #import "YHBaseError.h"
@@ -33,6 +33,13 @@
 #define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
 #define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 
+//判断系统版本的宏
+#define DEVICE_IOS6 (([[[UIDevice currentDevice] systemVersion] floatValue] >= 6.0)&&\
+([[[UIDevice currentDevice] systemVersion] floatValue] <= 7.0))
+#define DEVICE_IOS7 (([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0)&&\
+([[[UIDevice currentDevice] systemVersion] floatValue] <= 8.0))
+#define DEVICE_IOS8 (([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)&&\
+([[[UIDevice currentDevice] systemVersion] floatValue] <= 9.0))
 
 //=============================快捷定义宏=========================//
 #define __PROPERTY_NO_COPY__(type,object) @property(nonatomic,copy)type object
@@ -55,13 +62,12 @@
 #define __BLOCK__WEAK__SELF__(sel) __weak id sel =  self
 
 
-//判断系统版本的宏
-#define DEVICE_IOS6 (([[[UIDevice currentDevice] systemVersion] floatValue] >= 6.0)&&\
-                    ([[[UIDevice currentDevice] systemVersion] floatValue] <= 7.0))
-#define DEVICE_IOS7 (([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0)&&\
-                    ([[[UIDevice currentDevice] systemVersion] floatValue] <= 8.0))
-#define DEVICE_IOS8 (([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)&&\
-                    ([[[UIDevice currentDevice] systemVersion] floatValue] <= 9.0))
+
+
+
+
+
+
 
 //=============================注册的通知========================//
 //错误中心监听的通知

@@ -450,6 +450,7 @@
 			children = (
 				CE89DBC31B9D60560006B123 /* BaseCalendarView */,
 				CE89DBC61B9D60560006B123 /* BaseSelfDrawView */,
+				CE89DBE31B9D60560006B123 /* YHKit.h */,
 				CE89DBCB1B9D60560006B123 /* RCLabel.h */,
 				CE89DBCC1B9D60560006B123 /* RCLabel.m */,
 				CE89DBCD1B9D60560006B123 /* YHBaseActivityIndicatorView.h */,
@@ -474,7 +475,6 @@
 				CE89DBE01B9D60560006B123 /* YHBaseTextView.m */,
 				CE89DBE11B9D60560006B123 /* YHBaseView.h */,
 				CE89DBE21B9D60560006B123 /* YHBaseView.m */,
-				CE89DBE31B9D60560006B123 /* YHKit.h */,
 			);
 			path = BaseViews;
 			sourceTree = "<group>";
