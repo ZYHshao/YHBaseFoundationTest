@@ -7,7 +7,7 @@
 //日历控件视图 这个目前自定义功能不强  有时间了再扩展
 
 #import "YHBaseView.h"
-
+@class YHBaseDateModel;
 @protocol YHBaseCalendarViewDelegate<NSObject>
 -(void)YHBaseCalendarViewSelectAtDateModel:(YHBaseDateModel *)dateModel;
 -(void)YHBaseCalendarViewScrollEndToDate:(YHBaseDateModel *)dateModel;

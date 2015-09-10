@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		8BC2FC1E330ABA30C280BEC3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DBFAC3F747F22811425A971B /* libPods.a */; };
+		CE2E8FEF1BA188E1004927B1 /* YHBaseTestTools.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2E8FEE1BA188E1004927B1 /* YHBaseTestTools.m */; };
+		CE2E8FF21BA18A21004927B1 /* YHBaseTestLock.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2E8FF11BA18A21004927B1 /* YHBaseTestLock.m */; };
+		CE2E8FF51BA18E52004927B1 /* UIViewController+YHBaseTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2E8FF41BA18E52004927B1 /* UIViewController+YHBaseTest.m */; };
 		CE89DB5B1B9D5F8D0006B123 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE89DB5A1B9D5F8D0006B123 /* main.m */; };
 		CE89DB5E1B9D5F8D0006B123 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE89DB5D1B9D5F8D0006B123 /* AppDelegate.m */; };
 		CE89DB611B9D5F8D0006B123 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE89DB601B9D5F8D0006B123 /* ViewController.m */; };
@@ -72,6 +75,12 @@
 /* Begin PBXFileReference section */
 		A318A98D430F05EA09A351C0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C60B8F3517AC1B3ADE17E9DD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		CE2E8FED1BA188E1004927B1 /* YHBaseTestTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBaseTestTools.h; sourceTree = "<group>"; };
+		CE2E8FEE1BA188E1004927B1 /* YHBaseTestTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHBaseTestTools.m; sourceTree = "<group>"; };
+		CE2E8FF01BA18A21004927B1 /* YHBaseTestLock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBaseTestLock.h; sourceTree = "<group>"; };
+		CE2E8FF11BA18A21004927B1 /* YHBaseTestLock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHBaseTestLock.m; sourceTree = "<group>"; };
+		CE2E8FF31BA18E52004927B1 /* UIViewController+YHBaseTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YHBaseTest.h"; sourceTree = "<group>"; };
+		CE2E8FF41BA18E52004927B1 /* UIViewController+YHBaseTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YHBaseTest.m"; sourceTree = "<group>"; };
 		CE89DB551B9D5F8D0006B123 /* YHBaseFoundationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHBaseFoundationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE89DB591B9D5F8D0006B123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE89DB5A1B9D5F8D0006B123 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -217,6 +226,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CE2E8FEC1BA188C5004927B1 /* YHBaseTestTools */ = {
+			isa = PBXGroup;
+			children = (
+				CE2E8FED1BA188E1004927B1 /* YHBaseTestTools.h */,
+				CE2E8FEE1BA188E1004927B1 /* YHBaseTestTools.m */,
+				CE2E8FF01BA18A21004927B1 /* YHBaseTestLock.h */,
+				CE2E8FF11BA18A21004927B1 /* YHBaseTestLock.m */,
+			);
+			path = YHBaseTestTools;
+			sourceTree = "<group>";
+		};
 		CE89DB4C1B9D5F8D0006B123 = {
 			isa = PBXGroup;
 			children = (
@@ -319,6 +339,8 @@
 				CE89DB881B9D60560006B123 /* NSDate+YHBaseCalendar.m */,
 				CE89DB891B9D60560006B123 /* NSDictionary+YHBaseJson.h */,
 				CE89DB8A1B9D60560006B123 /* NSDictionary+YHBaseJson.m */,
+				CE2E8FF31BA18E52004927B1 /* UIViewController+YHBaseTest.h */,
+				CE2E8FF41BA18E52004927B1 /* UIViewController+YHBaseTest.m */,
 			);
 			path = BaseCategory;
 			sourceTree = "<group>";
@@ -427,6 +449,7 @@
 		CE89DBB31B9D60560006B123 /* BaseTools */ = {
 			isa = PBXGroup;
 			children = (
+				CE2E8FEC1BA188C5004927B1 /* YHBaseTestTools */,
 				CE89DBB41B9D60560006B123 /* YHBaseCoreGraphicsTools.h */,
 				CE89DBB51B9D60560006B123 /* YHBaseCoreGraphicsTools.m */,
 				CE89DBB61B9D60560006B123 /* YHBaseData.h */,
@@ -662,6 +685,7 @@
 				CE89DC071B9D60560006B123 /* YHBaseScrollView.m in Sources */,
 				CE89DBE41B9D60560006B123 /* AudioStreamer.m in Sources */,
 				CE89DBFC1B9D60560006B123 /* YHBaseCalendarView.m in Sources */,
+				CE2E8FF51BA18E52004927B1 /* UIViewController+YHBaseTest.m in Sources */,
 				CE89DBFE1B9D60560006B123 /* YHBaseSelfServiceDrawView.m in Sources */,
 				CE89DBE81B9D60560006B123 /* NSDictionary+YHBaseJson.m in Sources */,
 				CE89DC091B9D60560006B123 /* YHBaseTextView.m in Sources */,
@@ -673,7 +697,9 @@
 				CE89DC041B9D60560006B123 /* YHBaseLabel.m in Sources */,
 				CE89DBEF1B9D60560006B123 /* YHBaseHttpRequestObject.m in Sources */,
 				CE89DBED1B9D60560006B123 /* YHBaseCecheCenter.m in Sources */,
+				CE2E8FEF1BA188E1004927B1 /* YHBaseTestTools.m in Sources */,
 				CE89DBF51B9D60560006B123 /* YHBaseCoreGraphicsTools.m in Sources */,
+				CE2E8FF21BA18A21004927B1 /* YHBaseTestLock.m in Sources */,
 				CEE5C5BD1B9FD18800B9AD22 /* UIView+Responder.m in Sources */,
 				CE89DC031B9D60560006B123 /* YHBaseHtmlView.m in Sources */,
 				CE89DBF11B9D60560006B123 /* YHBaseTimerManager.m in Sources */,

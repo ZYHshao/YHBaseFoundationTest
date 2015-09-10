@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "YHSingletonProcotol.h"
 @interface YHBaseActivityIndicatorView : UIView<YHSingletonProcotol,YHViewProtocol>
 //呼出和移去的方法
 -(void)show;
