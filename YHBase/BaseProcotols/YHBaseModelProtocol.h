@@ -13,4 +13,8 @@
 -(void)creatModelWithDic:(NSDictionary *)dic;
 //提供一个字典的映射方法，将属性转化为字典
 -(NSDictionary *)modelMappingToDictionary;
+/**
+ *这个方法将json数据直接映射成model 数据格式必须正规
+ */
+-(void)creatModelWithData:(NSData *)data;
 @end

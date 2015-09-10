@@ -27,6 +27,10 @@
     }
     return dic;
 }
+-(void)creatModelWithData:(NSData *)data{
+    NSDictionary * dic = [YHBaseJOSNAnalytical dictionaryWithJSData:data];
+    [self creatModelWithDic:dic];
+}
 
 -(NSArray *)getAllPropertys{
     NSMutableArray * array = [[NSMutableArray alloc]init];
