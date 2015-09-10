@@ -17,11 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    NSLog(@"111111111111111111111111111111111111111111111111111111111111111");
-    [YHBaseTestLock customUnLock];
-    NSLog(@"%d%@%c",1,@"321",'a');
-    [YHBaseTestLock customLock];
-    NSLog(@"321");
 }
 
 - (void)didReceiveMemoryWarning {
