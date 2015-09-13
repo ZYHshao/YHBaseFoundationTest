@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18E9A8F01BA51BD30083F148 /* UIView+SubViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E9A8EF1BA51BD30083F148 /* UIView+SubViews.m */; };
 		8BC2FC1E330ABA30C280BEC3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DBFAC3F747F22811425A971B /* libPods.a */; };
 		CE2E8FEF1BA188E1004927B1 /* YHBaseTestTools.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2E8FEE1BA188E1004927B1 /* YHBaseTestTools.m */; };
 		CE2E8FF21BA18A21004927B1 /* YHBaseTestLock.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2E8FF11BA18A21004927B1 /* YHBaseTestLock.m */; };
@@ -73,6 +74,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18E9A8EE1BA51BD30083F148 /* UIView+SubViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SubViews.h"; sourceTree = "<group>"; };
+		18E9A8EF1BA51BD30083F148 /* UIView+SubViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SubViews.m"; sourceTree = "<group>"; };
 		A318A98D430F05EA09A351C0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C60B8F3517AC1B3ADE17E9DD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		CE2E8FED1BA188E1004927B1 /* YHBaseTestTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBaseTestTools.h; sourceTree = "<group>"; };
@@ -331,6 +334,8 @@
 		CE89DB841B9D60560006B123 /* BaseCategory */ = {
 			isa = PBXGroup;
 			children = (
+				18E9A8EE1BA51BD30083F148 /* UIView+SubViews.h */,
+				18E9A8EF1BA51BD30083F148 /* UIView+SubViews.m */,
 				CEE5C5BB1B9FD18800B9AD22 /* UIView+Responder.h */,
 				CEE5C5BC1B9FD18800B9AD22 /* UIView+Responder.m */,
 				CE89DB851B9D60560006B123 /* NSArray+YHBaseJson.h */,
@@ -677,6 +682,7 @@
 				CE89DBEA1B9D60560006B123 /* YHBaseViewController.m in Sources */,
 				CE89DC011B9D60560006B123 /* YHBaseAlertView.m in Sources */,
 				CE89DBF81B9D60560006B123 /* YHBaseGeometryTools.m in Sources */,
+				18E9A8F01BA51BD30083F148 /* UIView+SubViews.m in Sources */,
 				CE89DC051B9D60560006B123 /* YHBaseListView.m in Sources */,
 				CE89DB5B1B9D5F8D0006B123 /* main.m in Sources */,
 				CE89DBF41B9D60560006B123 /* YHBaseModel.m in Sources */,
