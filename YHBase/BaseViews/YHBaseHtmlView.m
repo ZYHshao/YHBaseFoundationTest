@@ -75,6 +75,9 @@
     }
 }
 -(void)setFontSize:(int)size{
+    if (_size==size) {
+        return;
+    }
     _size=size;
     if (_srt) {
         [self reSetHtmlStr:_srt];
