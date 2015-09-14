@@ -12,6 +12,7 @@
 		CE2E8FEF1BA188E1004927B1 /* YHBaseTestTools.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2E8FEE1BA188E1004927B1 /* YHBaseTestTools.m */; };
 		CE2E8FF21BA18A21004927B1 /* YHBaseTestLock.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2E8FF11BA18A21004927B1 /* YHBaseTestLock.m */; };
 		CE2E8FF51BA18E52004927B1 /* UIViewController+YHBaseTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2E8FF41BA18E52004927B1 /* UIViewController+YHBaseTest.m */; };
+		CE6BDF301BA6C04A0070B607 /* YHBaseHtmlView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6BDF2F1BA6C04A0070B607 /* YHBaseHtmlView.m */; };
 		CE89DB5B1B9D5F8D0006B123 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE89DB5A1B9D5F8D0006B123 /* main.m */; };
 		CE89DB5E1B9D5F8D0006B123 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE89DB5D1B9D5F8D0006B123 /* AppDelegate.m */; };
 		CE89DB611B9D5F8D0006B123 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE89DB601B9D5F8D0006B123 /* ViewController.m */; };
@@ -50,7 +51,6 @@
 		CE89DC001B9D60560006B123 /* YHBaseActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE89DBCE1B9D60560006B123 /* YHBaseActivityIndicatorView.m */; };
 		CE89DC011B9D60560006B123 /* YHBaseAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE89DBD01B9D60560006B123 /* YHBaseAlertView.m */; };
 		CE89DC021B9D60560006B123 /* YHBaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CE89DBD21B9D60560006B123 /* YHBaseButton.m */; };
-		CE89DC031B9D60560006B123 /* YHBaseHtmlView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE89DBD41B9D60560006B123 /* YHBaseHtmlView.m */; };
 		CE89DC041B9D60560006B123 /* YHBaseLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE89DBD61B9D60560006B123 /* YHBaseLabel.m */; };
 		CE89DC051B9D60560006B123 /* YHBaseListView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE89DBD81B9D60560006B123 /* YHBaseListView.m */; };
 		CE89DC061B9D60560006B123 /* YHBaseListViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CE89DBDA1B9D60560006B123 /* YHBaseListViewItem.m */; };
@@ -84,6 +84,8 @@
 		CE2E8FF11BA18A21004927B1 /* YHBaseTestLock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHBaseTestLock.m; sourceTree = "<group>"; };
 		CE2E8FF31BA18E52004927B1 /* UIViewController+YHBaseTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YHBaseTest.h"; sourceTree = "<group>"; };
 		CE2E8FF41BA18E52004927B1 /* UIViewController+YHBaseTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YHBaseTest.m"; sourceTree = "<group>"; };
+		CE6BDF2E1BA6C04A0070B607 /* YHBaseHtmlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBaseHtmlView.h; sourceTree = "<group>"; };
+		CE6BDF2F1BA6C04A0070B607 /* YHBaseHtmlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHBaseHtmlView.m; sourceTree = "<group>"; };
 		CE89DB551B9D5F8D0006B123 /* YHBaseFoundationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHBaseFoundationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE89DB591B9D5F8D0006B123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE89DB5A1B9D5F8D0006B123 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -166,8 +168,6 @@
 		CE89DBD01B9D60560006B123 /* YHBaseAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHBaseAlertView.m; sourceTree = "<group>"; };
 		CE89DBD11B9D60560006B123 /* YHBaseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBaseButton.h; sourceTree = "<group>"; };
 		CE89DBD21B9D60560006B123 /* YHBaseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHBaseButton.m; sourceTree = "<group>"; };
-		CE89DBD31B9D60560006B123 /* YHBaseHtmlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBaseHtmlView.h; sourceTree = "<group>"; };
-		CE89DBD41B9D60560006B123 /* YHBaseHtmlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHBaseHtmlView.m; sourceTree = "<group>"; };
 		CE89DBD51B9D60560006B123 /* YHBaseLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBaseLabel.h; sourceTree = "<group>"; };
 		CE89DBD61B9D60560006B123 /* YHBaseLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHBaseLabel.m; sourceTree = "<group>"; };
 		CE89DBD71B9D60560006B123 /* YHBaseListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBaseListView.h; sourceTree = "<group>"; };
@@ -487,8 +487,6 @@
 				CE89DBD01B9D60560006B123 /* YHBaseAlertView.m */,
 				CE89DBD11B9D60560006B123 /* YHBaseButton.h */,
 				CE89DBD21B9D60560006B123 /* YHBaseButton.m */,
-				CE89DBD31B9D60560006B123 /* YHBaseHtmlView.h */,
-				CE89DBD41B9D60560006B123 /* YHBaseHtmlView.m */,
 				CE89DBD51B9D60560006B123 /* YHBaseLabel.h */,
 				CE89DBD61B9D60560006B123 /* YHBaseLabel.m */,
 				CE89DBD71B9D60560006B123 /* YHBaseListView.h */,
@@ -503,6 +501,8 @@
 				CE89DBE01B9D60560006B123 /* YHBaseTextView.m */,
 				CE89DBE11B9D60560006B123 /* YHBaseView.h */,
 				CE89DBE21B9D60560006B123 /* YHBaseView.m */,
+				CE6BDF2E1BA6C04A0070B607 /* YHBaseHtmlView.h */,
+				CE6BDF2F1BA6C04A0070B607 /* YHBaseHtmlView.m */,
 			);
 			path = BaseViews;
 			sourceTree = "<group>";
@@ -665,6 +665,7 @@
 				CE89DB611B9D5F8D0006B123 /* ViewController.m in Sources */,
 				CE89DC061B9D60560006B123 /* YHBaseListViewItem.m in Sources */,
 				CE89DBF01B9D60560006B123 /* YHBaseManager.m in Sources */,
+				CE6BDF301BA6C04A0070B607 /* YHBaseHtmlView.m in Sources */,
 				CE89DC081B9D60560006B123 /* YHBaseTableView.m in Sources */,
 				CE89DBF91B9D60560006B123 /* YHBaseJOSNAnalytical.m in Sources */,
 				CE89DBFD1B9D60560006B123 /* YHBaseSelfServiceDrawControlView.m in Sources */,
@@ -707,7 +708,6 @@
 				CE89DBF51B9D60560006B123 /* YHBaseCoreGraphicsTools.m in Sources */,
 				CE2E8FF21BA18A21004927B1 /* YHBaseTestLock.m in Sources */,
 				CEE5C5BD1B9FD18800B9AD22 /* UIView+Responder.m in Sources */,
-				CE89DC031B9D60560006B123 /* YHBaseHtmlView.m in Sources */,
 				CE89DBF11B9D60560006B123 /* YHBaseTimerManager.m in Sources */,
 				CE89DBE71B9D60560006B123 /* NSDate+YHBaseCalendar.m in Sources */,
 				CE89DBF61B9D60560006B123 /* YHBaseData.m in Sources */,

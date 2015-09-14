@@ -24,5 +24,11 @@
 @interface YHBaseHtmlView : YHBaseView
 
 -(void)reSetHtmlStr:(NSString *)htmlStr;
+/**
+ *设置字体的大小
+ */
+-(void)setFontSize:(int)size;
+
+
 @property(nonatomic,weak)id<YHBaseHtmlViewProcotop>delegate;
 @end
