@@ -90,12 +90,7 @@
     NSDate * firstDate = [currentDate YHBaseFirstDayOfCurrentMonth];
     //确定这一天是周几
      int weekday = [firstDate YHBaseWeekly];
-    if (weekday!=0) {
-        weekday=weekday-1;
-    }else{
-        weekday=7;
-    }
-   
+    weekday=weekday-1;
     //确定创建多少行
     int weekRow=0;
     int tmp=monthNum;
