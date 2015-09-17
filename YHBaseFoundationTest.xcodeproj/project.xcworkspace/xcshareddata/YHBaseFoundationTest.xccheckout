@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3DC891D7-F9D8-47AD-9FC2-646E2C76DDE9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>YHBaseFoundationTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B2078E179051959C17FD5BA1BAF4FDCB0B8E43AC</key>
+		<string>https://github.com/ZYHshao/YHBaseFoundationTest.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>YHBaseFoundationTest.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B2078E179051959C17FD5BA1BAF4FDCB0B8E43AC</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ZYHshao/YHBaseFoundationTest.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B2078E179051959C17FD5BA1BAF4FDCB0B8E43AC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B2078E179051959C17FD5BA1BAF4FDCB0B8E43AC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>YHBaseFoundationTest</string>
+		</dict>
+	</array>
+</dict>
+</plist>

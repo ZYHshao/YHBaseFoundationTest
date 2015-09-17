@@ -68,6 +68,7 @@
         label.textAlignment = NSTextAlignmentCenter;
         label.layer.borderWidth=1;
         label.layer.borderColor = [[UIColor grayColor]CGColor];
+        
         label.font = [UIFont boldSystemFontOfSize:16];
         label.layer.borderColor=[[UIColor grayColor] CGColor];
         label.textColor = [UIColor whiteColor];
@@ -88,7 +89,13 @@
     //获取第一天的日期
     NSDate * firstDate = [currentDate YHBaseFirstDayOfCurrentMonth];
     //确定这一天是周几
-    int weekday = [firstDate YHBaseWeekly];
+     int weekday = [firstDate YHBaseWeekly];
+    if (weekday!=0) {
+        weekday=weekday-1;
+    }else{
+        weekday=7;
+    }
+   
     //确定创建多少行
     int weekRow=0;
     int tmp=monthNum;
