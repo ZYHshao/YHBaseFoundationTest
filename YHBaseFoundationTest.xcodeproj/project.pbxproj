@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		183CA98D1BC524AA00763A35 /* MyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 183CA98C1BC524AA00763A35 /* MyModel.m */; settings = {ASSET_TAGS = (); }; };
 		18E9A8F01BA51BD30083F148 /* UIView+SubViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E9A8EF1BA51BD30083F148 /* UIView+SubViews.m */; };
 		8BC2FC1E330ABA30C280BEC3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DBFAC3F747F22811425A971B /* libPods.a */; };
 		CE2E8FEF1BA188E1004927B1 /* YHBaseTestTools.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2E8FEE1BA188E1004927B1 /* YHBaseTestTools.m */; };
@@ -74,6 +75,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		183CA98B1BC524AA00763A35 /* MyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyModel.h; sourceTree = "<group>"; };
+		183CA98C1BC524AA00763A35 /* MyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyModel.m; sourceTree = "<group>"; };
 		18E9A8EE1BA51BD30083F148 /* UIView+SubViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SubViews.h"; sourceTree = "<group>"; };
 		18E9A8EF1BA51BD30083F148 /* UIView+SubViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SubViews.m"; sourceTree = "<group>"; };
 		256D1B771BB39192009B7758 /* YHBaseDefaul.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBaseDefaul.h; sourceTree = "<group>"; };
@@ -269,6 +272,8 @@
 				CE89DB5D1B9D5F8D0006B123 /* AppDelegate.m */,
 				CE89DB5F1B9D5F8D0006B123 /* ViewController.h */,
 				CE89DB601B9D5F8D0006B123 /* ViewController.m */,
+				183CA98B1BC524AA00763A35 /* MyModel.h */,
+				183CA98C1BC524AA00763A35 /* MyModel.m */,
 				CE89DB621B9D5F8D0006B123 /* Main.storyboard */,
 				CE89DB651B9D5F8D0006B123 /* Images.xcassets */,
 				CE89DB671B9D5F8D0006B123 /* LaunchScreen.xib */,
@@ -665,6 +670,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE89DB611B9D5F8D0006B123 /* ViewController.m in Sources */,
+				183CA98D1BC524AA00763A35 /* MyModel.m in Sources */,
 				CE89DC061B9D60560006B123 /* YHBaseListViewItem.m in Sources */,
 				CE89DBF01B9D60560006B123 /* YHBaseManager.m in Sources */,
 				CE6BDF301BA6C04A0070B607 /* YHBaseHtmlView.m in Sources */,

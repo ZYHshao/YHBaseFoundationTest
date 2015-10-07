@@ -32,6 +32,7 @@
     _fileCechePath = [NSHomeDirectory() stringByAppendingString:YH_BASE_CECHE_PATH_FILE];
     _audioCechePath = [NSHomeDirectory() stringByAppendingString:YH_BASE_CECHE_PATH_AUDIO];
     _videoCechePath = [NSHomeDirectory() stringByAppendingString:YH_BASE_CECHE_PATH_VEDIO];
+    _archiverPath = [NSHomeDirectory() stringByAppendingString:YH_BASE_CECHE_PATH_Archiver];
 }
 
 
@@ -107,6 +108,11 @@
             return _audioCechePath;
         }
             break;
+        case 6:
+        {
+            return _archiverPath;
+        }
+            break;
         default:
             return _mainCechePath;
             break;
@@ -166,6 +172,22 @@
     [self removeCacheFromPath:YHBaseCecheImage];
     [self removeCacheFromPath:YHBaseCecheMain];
     [self removeCacheFromPath:YHBaseCecheVedio];
+    [self removeCacheFromPath:YHBaseArchiver];
 }
 
+//====================================数据模型存储相关方法===========
+-(void)setValueModel:(YHBaseModel *)model ForKey:(NSString *)key{
+    NSMutableData * data = [[NSMutableData alloc]init];
+    NSKeyedArchiver * archiver = [[NSKeyedArchiver alloc]initForWritingWithMutableData:data];
+    [archiver encodeObject:model forKey:key];
+    [archiver finishEncoding];
+    [self writeCecheFile:data withFileID:key toPath:YHBaseArchiver];
+}
+-(YHBaseModel *)getValueModel:(NSString *)key{
+    NSData * data = [self readCecheFile:key fromPath:YHBaseArchiver];
+    NSKeyedUnarchiver * unArchiver = [[NSKeyedUnarchiver alloc]initForReadingWithData:data];
+    YHBaseModel * model = [unArchiver decodeObjectForKey:key];
+    [unArchiver finishDecoding];
+    return model;
+}
 @end

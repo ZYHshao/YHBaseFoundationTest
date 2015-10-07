@@ -43,6 +43,7 @@
 //定义这个宏方便在block中使用self指针
 #define __BLOCK__WEAK__SELF__(sel) __weak id sel =  self
 //这个宏没什么卵用 提示开发者这个集合中的参数类型 省去注释的编写
+//现在这个宏真的一点用都没有了 在xcode7中支持了泛型集合
 /**
  *__PROPERTY_NO_STRONG__(__TYPE__FIT_TO__CLASS([NSString class]) NSArray * , array);
  */

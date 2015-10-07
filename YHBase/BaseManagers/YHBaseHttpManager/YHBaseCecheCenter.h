@@ -32,7 +32,10 @@ __PROPERTY_NO_STRONG__READLY__(NSString *, videoCechePath);
  *音频缓存地址
  */
 __PROPERTY_NO_STRONG__READLY__(NSString *, audioCechePath);
-
+/**
+ *归档的地址
+ */
+__PROPERTY_NO_STRONG__READLY__(NSString *, archiverPath);
 
 /**
  *  @author jaki, 15-09-29 18:09:02
@@ -84,15 +87,32 @@ __PROPERTY_NO_STRONG__READLY__(NSString *, audioCechePath);
 /**
  *  @author jaki, 15-09-29 18:09:23
  *
- *  @brief  清除所有缓存
+ *  @brief  清除所有缓存 包括归档
  */
 -(void)removeAllCache;
 
 /**********************************
- 上面的方法用于网络请求数据的存储，下面的方法直接对对象进行存储，并且外界不需实现归档方法，直接存，直接去
+ 上面的方法用于网络请求数据的存储，下面的方法直接对对象进行存储，并且外界不需实现归档方法，直接存，直接取
  **********************************/
-
-
-
-
+/**
+ *  @author jaki
+ *
+ *  @biref 对数据模型进行存储
+ *
+ *  @param model 存储的数据模型
+ *
+ *  @param key 模型的键值
+ */
+-(void)setValueModel:(YHBaseModel *)model ForKey:(NSString *)key;
+/**
+ *  @autor jaki
+ *
+ *  @biref 获取归档的数据模型
+ *
+ *  @param key 模型的键值
+ *
+ *  @return 数据模型
+ *
+ */
+-(YHBaseModel *)getValueModel:(NSString *)key;
 @end

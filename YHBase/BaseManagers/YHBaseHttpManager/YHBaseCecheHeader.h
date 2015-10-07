@@ -16,7 +16,9 @@ typedef enum {
     YHBaseCecheImage,
     YHBaseCecheFile,
     YHBaseCecheVedio,
-    YHBaseCecheAudio
+    YHBaseCecheAudio,
+    //归档的目录，专门用于存数据模型
+    YHBaseArchiver
 }YHBaseCechePath;
 
 #define YH_BASE_CECHE_PATH_MAIN @"/Library/Caches/MyCache/Main"
@@ -24,5 +26,5 @@ typedef enum {
 #define YH_BASE_CECHE_PATH_FILE @"/Library/Caches/MyCache/File"
 #define YH_BASE_CECHE_PATH_VEDIO @"/Library/Caches/MyCache/Vedio"
 #define YH_BASE_CECHE_PATH_AUDIO @"/Library/Caches/MyCache/Audio"
-
+#define YH_BASE_CECHE_PATH_Archiver @"/Library/Caches/Archiver"
 #endif
