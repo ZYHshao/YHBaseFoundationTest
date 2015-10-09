@@ -31,4 +31,5 @@
 #import "YHBaseTableViewController.h"
 #import "YHBaseTestTools.h"
 #import "YHBaseHttpManager.h"
+#import "YHBaseFontTools.h"
 #endif

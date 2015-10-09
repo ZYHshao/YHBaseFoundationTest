@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Academy Engraved LET</key>
+	<array>
+		<string>AcademyEngravedLetPlain</string>
+	</array>
+	<key>Al Nile</key>
+	<array>
+		<string>AlNile-Bold</string>
+		<string>AlNile</string>
+	</array>
+	<key>American Typewriter</key>
+	<array>
+		<string>AmericanTypewriter-CondensedLight</string>
+		<string>AmericanTypewriter</string>
+		<string>AmericanTypewriter-CondensedBold</string>
+		<string>AmericanTypewriter-Light</string>
+		<string>AmericanTypewriter-Bold</string>
+		<string>AmericanTypewriter-Condensed</string>
+	</array>
+	<key>Apple Color Emoji</key>
+	<array>
+		<string>AppleColorEmoji</string>
+	</array>
+	<key>Apple SD Gothic Neo</key>
+	<array>
+		<string>AppleSDGothicNeo-Bold</string>
+		<string>AppleSDGothicNeo-Thin</string>
+		<string>AppleSDGothicNeo-UltraLight</string>
+		<string>AppleSDGothicNeo-Regular</string>
+		<string>AppleSDGothicNeo-Light</string>
+		<string>AppleSDGothicNeo-Medium</string>
+		<string>AppleSDGothicNeo-SemiBold</string>
+	</array>
+	<key>Arial</key>
+	<array>
+		<string>ArialMT</string>
+		<string>Arial-BoldItalicMT</string>
+		<string>Arial-BoldMT</string>
+		<string>Arial-ItalicMT</string>
+	</array>
+	<key>Arial Hebrew</key>
+	<array>
+		<string>ArialHebrew-Bold</string>
+		<string>ArialHebrew-Light</string>
+		<string>ArialHebrew</string>
+	</array>
+	<key>Arial Rounded MT Bold</key>
+	<array>
+		<string>ArialRoundedMTBold</string>
+	</array>
+	<key>Avenir</key>
+	<array>
+		<string>Avenir-Medium</string>
+		<string>Avenir-HeavyOblique</string>
+		<string>Avenir-Book</string>
+		<string>Avenir-Light</string>
+		<string>Avenir-Roman</string>
+		<string>Avenir-BookOblique</string>
+		<string>Avenir-Black</string>
+		<string>Avenir-MediumOblique</string>
+		<string>Avenir-BlackOblique</string>
+		<string>Avenir-Heavy</string>
+		<string>Avenir-LightOblique</string>
+		<string>Avenir-Oblique</string>
+	</array>
+	<key>Avenir Next</key>
+	<array>
+		<string>AvenirNext-UltraLight</string>
+		<string>AvenirNext-UltraLightItalic</string>
+		<string>AvenirNext-Bold</string>
+		<string>AvenirNext-BoldItalic</string>
+		<string>AvenirNext-DemiBold</string>
+		<string>AvenirNext-DemiBoldItalic</string>
+		<string>AvenirNext-Medium</string>
+		<string>AvenirNext-HeavyItalic</string>
+		<string>AvenirNext-Heavy</string>
+		<string>AvenirNext-Italic</string>
+		<string>AvenirNext-Regular</string>
+		<string>AvenirNext-MediumItalic</string>
+	</array>
+	<key>Avenir Next Condensed</key>
+	<array>
+		<string>AvenirNextCondensed-BoldItalic</string>
+		<string>AvenirNextCondensed-Heavy</string>
+		<string>AvenirNextCondensed-Medium</string>
+		<string>AvenirNextCondensed-Regular</string>
+		<string>AvenirNextCondensed-HeavyItalic</string>
+		<string>AvenirNextCondensed-MediumItalic</string>
+		<string>AvenirNextCondensed-Italic</string>
+		<string>AvenirNextCondensed-UltraLightItalic</string>
+		<string>AvenirNextCondensed-DemiBold</string>
+		<string>AvenirNextCondensed-UltraLight</string>
+		<string>AvenirNextCondensed-Bold</string>
+		<string>AvenirNextCondensed-DemiBoldItalic</string>
+	</array>
+	<key>Bangla Sangam MN</key>
+	<array>
+		<string>BanglaSangamMN-Bold</string>
+		<string>BanglaSangamMN</string>
+	</array>
+	<key>Baskerville</key>
+	<array>
+		<string>Baskerville-Italic</string>
+		<string>Baskerville-SemiBold</string>
+		<string>Baskerville-BoldItalic</string>
+		<string>Baskerville-SemiBoldItalic</string>
+		<string>Baskerville-Bold</string>
+		<string>Baskerville</string>
+	</array>
+	<key>Bodoni 72</key>
+	<array>
+		<string>BodoniSvtyTwoITCTT-Bold</string>
+		<string>BodoniSvtyTwoITCTT-Book</string>
+		<string>BodoniSvtyTwoITCTT-BookIta</string>
+	</array>
+	<key>Bodoni 72 Oldstyle</key>
+	<array>
+		<string>BodoniSvtyTwoOSITCTT-Book</string>
+		<string>BodoniSvtyTwoOSITCTT-Bold</string>
+		<string>BodoniSvtyTwoOSITCTT-BookIt</string>
+	</array>
+	<key>Bodoni 72 Smallcaps</key>
+	<array>
+		<string>BodoniSvtyTwoSCITCTT-Book</string>
+	</array>
+	<key>Bodoni Ornaments</key>
+	<array>
+		<string>BodoniOrnamentsITCTT</string>
+	</array>
+	<key>Bradley Hand</key>
+	<array>
+		<string>BradleyHandITCTT-Bold</string>
+	</array>
+	<key>Chalkboard SE</key>
+	<array>
+		<string>ChalkboardSE-Bold</string>
+		<string>ChalkboardSE-Light</string>
+		<string>ChalkboardSE-Regular</string>
+	</array>
+	<key>Chalkduster</key>
+	<array>
+		<string>Chalkduster</string>
+	</array>
+	<key>Cochin</key>
+	<array>
+		<string>Cochin-Bold</string>
+		<string>Cochin</string>
+		<string>Cochin-Italic</string>
+		<string>Cochin-BoldItalic</string>
+	</array>
+	<key>Copperplate</key>
+	<array>
+		<string>Copperplate-Light</string>
+		<string>Copperplate</string>
+		<string>Copperplate-Bold</string>
+	</array>
+	<key>Courier</key>
+	<array>
+		<string>Courier-BoldOblique</string>
+		<string>Courier</string>
+		<string>Courier-Bold</string>
+		<string>Courier-Oblique</string>
+	</array>
+	<key>Courier New</key>
+	<array>
+		<string>CourierNewPS-BoldMT</string>
+		<string>CourierNewPS-ItalicMT</string>
+		<string>CourierNewPSMT</string>
+		<string>CourierNewPS-BoldItalicMT</string>
+	</array>
+	<key>DIN Alternate</key>
+	<array>
+		<string>DINAlternate-Bold</string>
+	</array>
+	<key>DIN Condensed</key>
+	<array>
+		<string>DINCondensed-Bold</string>
+	</array>
+	<key>Damascus</key>
+	<array>
+		<string>DamascusLight</string>
+		<string>DamascusBold</string>
+		<string>DamascusSemiBold</string>
+		<string>DamascusMedium</string>
+		<string>Damascus</string>
+	</array>
+	<key>Devanagari Sangam MN</key>
+	<array>
+		<string>DevanagariSangamMN</string>
+		<string>DevanagariSangamMN-Bold</string>
+	</array>
+	<key>Didot</key>
+	<array>
+		<string>Didot-Italic</string>
+		<string>Didot-Bold</string>
+		<string>Didot</string>
+	</array>
+	<key>Euphemia UCAS</key>
+	<array>
+		<string>EuphemiaUCAS-Italic</string>
+		<string>EuphemiaUCAS</string>
+		<string>EuphemiaUCAS-Bold</string>
+	</array>
+	<key>Farah</key>
+	<array>
+		<string>Farah</string>
+	</array>
+	<key>Futura</key>
+	<array>
+		<string>Futura-CondensedMedium</string>
+		<string>Futura-CondensedExtraBold</string>
+		<string>Futura-Medium</string>
+		<string>Futura-MediumItalic</string>
+	</array>
+	<key>Geeza Pro</key>
+	<array>
+		<string>GeezaPro</string>
+		<string>GeezaPro-Bold</string>
+	</array>
+	<key>Georgia</key>
+	<array>
+		<string>Georgia-BoldItalic</string>
+		<string>Georgia</string>
+		<string>Georgia-Italic</string>
+		<string>Georgia-Bold</string>
+	</array>
+	<key>Gill Sans</key>
+	<array>
+		<string>GillSans-Italic</string>
+		<string>GillSans-Bold</string>
+		<string>GillSans-BoldItalic</string>
+		<string>GillSans-LightItalic</string>
+		<string>GillSans</string>
+		<string>GillSans-Light</string>
+		<string>GillSans-SemiBold</string>
+		<string>GillSans-SemiBoldItalic</string>
+		<string>GillSans-UltraBold</string>
+	</array>
+	<key>Gujarati Sangam MN</key>
+	<array>
+		<string>GujaratiSangamMN-Bold</string>
+		<string>GujaratiSangamMN</string>
+	</array>
+	<key>Gurmukhi MN</key>
+	<array>
+		<string>GurmukhiMN-Bold</string>
+		<string>GurmukhiMN</string>
+	</array>
+	<key>Heiti SC</key>
+	<array>
+		<string>STHeitiSC-Medium</string>
+		<string>STHeitiSC-Light</string>
+	</array>
+	<key>Heiti TC</key>
+	<array>
+		<string>STHeitiTC-Medium</string>
+		<string>STHeitiTC-Light</string>
+	</array>
+	<key>Helvetica</key>
+	<array>
+		<string>Helvetica-Bold</string>
+		<string>Helvetica</string>
+		<string>Helvetica-LightOblique</string>
+		<string>Helvetica-Oblique</string>
+		<string>Helvetica-BoldOblique</string>
+		<string>Helvetica-Light</string>
+	</array>
+	<key>Helvetica Neue</key>
+	<array>
+		<string>HelveticaNeue-Italic</string>
+		<string>HelveticaNeue-Bold</string>
+		<string>HelveticaNeue-UltraLight</string>
+		<string>HelveticaNeue-CondensedBlack</string>
+		<string>HelveticaNeue-BoldItalic</string>
+		<string>HelveticaNeue-CondensedBold</string>
+		<string>HelveticaNeue-Medium</string>
+		<string>HelveticaNeue-Light</string>
+		<string>HelveticaNeue-Thin</string>
+		<string>HelveticaNeue-ThinItalic</string>
+		<string>HelveticaNeue-LightItalic</string>
+		<string>HelveticaNeue-UltraLightItalic</string>
+		<string>HelveticaNeue-MediumItalic</string>
+		<string>HelveticaNeue</string>
+	</array>
+	<key>Hiragino Kaku Gothic ProN</key>
+	<array>
+		<string>HiraKakuProN-W6</string>
+		<string>HiraKakuProN-W3</string>
+	</array>
+	<key>Hiragino Mincho ProN</key>
+	<array>
+		<string>HiraMinProN-W6</string>
+		<string>HiraMinProN-W3</string>
+	</array>
+	<key>Hoefler Text</key>
+	<array>
+		<string>HoeflerText-Italic</string>
+		<string>HoeflerText-Regular</string>
+		<string>HoeflerText-Black</string>
+		<string>HoeflerText-BlackItalic</string>
+	</array>
+	<key>Iowan Old Style</key>
+	<array>
+		<string>IowanOldStyle-Italic</string>
+		<string>IowanOldStyle-Roman</string>
+		<string>IowanOldStyle-BoldItalic</string>
+		<string>IowanOldStyle-Bold</string>
+	</array>
+	<key>Kailasa</key>
+	<array>
+		<string>Kailasa-Bold</string>
+		<string>Kailasa</string>
+	</array>
+	<key>Kannada Sangam MN</key>
+	<array>
+		<string>KannadaSangamMN</string>
+		<string>KannadaSangamMN-Bold</string>
+	</array>
+	<key>Khmer Sangam MN</key>
+	<array>
+		<string>KhmerSangamMN</string>
+	</array>
+	<key>Kohinoor Devanagari</key>
+	<array>
+		<string>KohinoorDevanagari-Light</string>
+		<string>KohinoorDevanagari-Medium</string>
+		<string>KohinoorDevanagari-Book</string>
+	</array>
+	<key>Lao Sangam MN</key>
+	<array>
+		<string>LaoSangamMN</string>
+	</array>
+	<key>Malayalam Sangam MN</key>
+	<array>
+		<string>MalayalamSangamMN-Bold</string>
+		<string>MalayalamSangamMN</string>
+	</array>
+	<key>Marion</key>
+	<array>
+		<string>Marion-Italic</string>
+		<string>Marion-Bold</string>
+		<string>Marion-Regular</string>
+	</array>
+	<key>Marker Felt</key>
+	<array>
+		<string>MarkerFelt-Thin</string>
+		<string>MarkerFelt-Wide</string>
+	</array>
+	<key>Menlo</key>
+	<array>
+		<string>Menlo-Italic</string>
+		<string>Menlo-Bold</string>
+		<string>Menlo-Regular</string>
+		<string>Menlo-BoldItalic</string>
+	</array>
+	<key>Mishafi</key>
+	<array>
+		<string>DiwanMishafi</string>
+	</array>
+	<key>Noteworthy</key>
+	<array>
+		<string>Noteworthy-Light</string>
+		<string>Noteworthy-Bold</string>
+	</array>
+	<key>Optima</key>
+	<array>
+		<string>Optima-Regular</string>
+		<string>Optima-ExtraBlack</string>
+		<string>Optima-BoldItalic</string>
+		<string>Optima-Italic</string>
+		<string>Optima-Bold</string>
+	</array>
+	<key>Oriya Sangam MN</key>
+	<array>
+		<string>OriyaSangamMN</string>
+		<string>OriyaSangamMN-Bold</string>
+	</array>
+	<key>Palatino</key>
+	<array>
+		<string>Palatino-Bold</string>
+		<string>Palatino-Roman</string>
+		<string>Palatino-BoldItalic</string>
+		<string>Palatino-Italic</string>
+	</array>
+	<key>Papyrus</key>
+	<array>
+		<string>Papyrus</string>
+		<string>Papyrus-Condensed</string>
+	</array>
+	<key>Party LET</key>
+	<array>
+		<string>PartyLetPlain</string>
+	</array>
+	<key>Savoye LET</key>
+	<array>
+		<string>SavoyeLetPlain</string>
+	</array>
+	<key>Sinhala Sangam MN</key>
+	<array>
+		<string>SinhalaSangamMN-Bold</string>
+		<string>SinhalaSangamMN</string>
+	</array>
+	<key>Snell Roundhand</key>
+	<array>
+		<string>SnellRoundhand-Bold</string>
+		<string>SnellRoundhand</string>
+		<string>SnellRoundhand-Black</string>
+	</array>
+	<key>Superclarendon</key>
+	<array>
+		<string>Superclarendon-Italic</string>
+		<string>Superclarendon-Black</string>
+		<string>Superclarendon-LightItalic</string>
+		<string>Superclarendon-BlackItalic</string>
+		<string>Superclarendon-BoldItalic</string>
+		<string>Superclarendon-Light</string>
+		<string>Superclarendon-Regular</string>
+		<string>Superclarendon-Bold</string>
+	</array>
+	<key>Symbol</key>
+	<array>
+		<string>Symbol</string>
+	</array>
+	<key>Tamil Sangam MN</key>
+	<array>
+		<string>TamilSangamMN</string>
+		<string>TamilSangamMN-Bold</string>
+	</array>
+	<key>Telugu Sangam MN</key>
+	<array>
+		<string>TeluguSangamMN</string>
+		<string>TeluguSangamMN-Bold</string>
+	</array>
+	<key>Thonburi</key>
+	<array>
+		<string>Thonburi</string>
+		<string>Thonburi-Bold</string>
+		<string>Thonburi-Light</string>
+	</array>
+	<key>Times New Roman</key>
+	<array>
+		<string>TimesNewRomanPSMT</string>
+		<string>TimesNewRomanPS-BoldItalicMT</string>
+		<string>TimesNewRomanPS-ItalicMT</string>
+		<string>TimesNewRomanPS-BoldMT</string>
+	</array>
+	<key>Trebuchet MS</key>
+	<array>
+		<string>Trebuchet-BoldItalic</string>
+		<string>TrebuchetMS</string>
+		<string>TrebuchetMS-Bold</string>
+		<string>TrebuchetMS-Italic</string>
+	</array>
+	<key>Verdana</key>
+	<array>
+		<string>Verdana-Italic</string>
+		<string>Verdana-BoldItalic</string>
+		<string>Verdana</string>
+		<string>Verdana-Bold</string>
+	</array>
+	<key>Zapf Dingbats</key>
+	<array>
+		<string>ZapfDingbatsITC</string>
+	</array>
+	<key>Zapfino</key>
+	<array>
+		<string>Zapfino</string>
+	</array>
+</dict>
+</plist>
