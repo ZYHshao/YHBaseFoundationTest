@@ -91,16 +91,13 @@
 		<string>AvenirNextCondensed-MediumItalic</string>
 		<string>AvenirNextCondensed-Italic</string>
 		<string>AvenirNextCondensed-UltraLightItalic</string>
-		<string>AvenirNextCondensed-DemiBold</string>
 		<string>AvenirNextCondensed-UltraLight</string>
+		<string>AvenirNextCondensed-DemiBold</string>
 		<string>AvenirNextCondensed-Bold</string>
 		<string>AvenirNextCondensed-DemiBoldItalic</string>
 	</array>
 	<key>Bangla Sangam MN</key>
-	<array>
-		<string>BanglaSangamMN-Bold</string>
-		<string>BanglaSangamMN</string>
-	</array>
+	<array/>
 	<key>Baskerville</key>
 	<array>
 		<string>Baskerville-Italic</string>
@@ -170,14 +167,6 @@
 		<string>CourierNewPS-ItalicMT</string>
 		<string>CourierNewPSMT</string>
 		<string>CourierNewPS-BoldItalicMT</string>
-	</array>
-	<key>DIN Alternate</key>
-	<array>
-		<string>DINAlternate-Bold</string>
-	</array>
-	<key>DIN Condensed</key>
-	<array>
-		<string>DINCondensed-Bold</string>
 	</array>
 	<key>Damascus</key>
 	<array>
@@ -250,15 +239,9 @@
 		<string>GurmukhiMN</string>
 	</array>
 	<key>Heiti SC</key>
-	<array>
-		<string>STHeitiSC-Medium</string>
-		<string>STHeitiSC-Light</string>
-	</array>
+	<array/>
 	<key>Heiti TC</key>
-	<array>
-		<string>STHeitiTC-Medium</string>
-		<string>STHeitiTC-Light</string>
-	</array>
+	<array/>
 	<key>Helvetica</key>
 	<array>
 		<string>Helvetica-Bold</string>
@@ -285,15 +268,15 @@
 		<string>HelveticaNeue-MediumItalic</string>
 		<string>HelveticaNeue</string>
 	</array>
-	<key>Hiragino Kaku Gothic ProN</key>
-	<array>
-		<string>HiraKakuProN-W6</string>
-		<string>HiraKakuProN-W3</string>
-	</array>
 	<key>Hiragino Mincho ProN</key>
 	<array>
 		<string>HiraMinProN-W6</string>
 		<string>HiraMinProN-W3</string>
+	</array>
+	<key>Hiragino Sans</key>
+	<array>
+		<string>HiraginoSans-W3</string>
+		<string>HiraginoSans-W6</string>
 	</array>
 	<key>Hoefler Text</key>
 	<array>
@@ -323,11 +306,23 @@
 	<array>
 		<string>KhmerSangamMN</string>
 	</array>
+	<key>Kohinoor Bangla</key>
+	<array>
+		<string>KohinoorBangla-Semibold</string>
+		<string>KohinoorBangla-Regular</string>
+		<string>KohinoorBangla-Light</string>
+	</array>
 	<key>Kohinoor Devanagari</key>
 	<array>
 		<string>KohinoorDevanagari-Light</string>
-		<string>KohinoorDevanagari-Medium</string>
-		<string>KohinoorDevanagari-Book</string>
+		<string>KohinoorDevanagari-Regular</string>
+		<string>KohinoorDevanagari-Semibold</string>
+	</array>
+	<key>Kohinoor Telugu</key>
+	<array>
+		<string>KohinoorTelugu-Regular</string>
+		<string>KohinoorTelugu-Medium</string>
+		<string>KohinoorTelugu-Light</string>
 	</array>
 	<key>Lao Sangam MN</key>
 	<array>
@@ -337,12 +332,6 @@
 	<array>
 		<string>MalayalamSangamMN-Bold</string>
 		<string>MalayalamSangamMN</string>
-	</array>
-	<key>Marion</key>
-	<array>
-		<string>Marion-Italic</string>
-		<string>Marion-Bold</string>
-		<string>Marion-Regular</string>
 	</array>
 	<key>Marker Felt</key>
 	<array>
@@ -394,6 +383,33 @@
 	<array>
 		<string>PartyLetPlain</string>
 	</array>
+	<key>PingFang HK</key>
+	<array>
+		<string>PingFangHK-Ultralight</string>
+		<string>PingFangHK-Semibold</string>
+		<string>PingFangHK-Thin</string>
+		<string>PingFangHK-Light</string>
+		<string>PingFangHK-Regular</string>
+		<string>PingFangHK-Medium</string>
+	</array>
+	<key>PingFang SC</key>
+	<array>
+		<string>PingFangSC-Ultralight</string>
+		<string>PingFangSC-Regular</string>
+		<string>PingFangSC-Semibold</string>
+		<string>PingFangSC-Thin</string>
+		<string>PingFangSC-Light</string>
+		<string>PingFangSC-Medium</string>
+	</array>
+	<key>PingFang TC</key>
+	<array>
+		<string>PingFangTC-Medium</string>
+		<string>PingFangTC-Regular</string>
+		<string>PingFangTC-Light</string>
+		<string>PingFangTC-Ultralight</string>
+		<string>PingFangTC-Semibold</string>
+		<string>PingFangTC-Thin</string>
+	</array>
 	<key>Savoye LET</key>
 	<array>
 		<string>SavoyeLetPlain</string>
@@ -409,17 +425,6 @@
 		<string>SnellRoundhand</string>
 		<string>SnellRoundhand-Black</string>
 	</array>
-	<key>Superclarendon</key>
-	<array>
-		<string>Superclarendon-Italic</string>
-		<string>Superclarendon-Black</string>
-		<string>Superclarendon-LightItalic</string>
-		<string>Superclarendon-BlackItalic</string>
-		<string>Superclarendon-BoldItalic</string>
-		<string>Superclarendon-Light</string>
-		<string>Superclarendon-Regular</string>
-		<string>Superclarendon-Bold</string>
-	</array>
 	<key>Symbol</key>
 	<array>
 		<string>Symbol</string>
@@ -430,10 +435,7 @@
 		<string>TamilSangamMN-Bold</string>
 	</array>
 	<key>Telugu Sangam MN</key>
-	<array>
-		<string>TeluguSangamMN</string>
-		<string>TeluguSangamMN-Bold</string>
-	</array>
+	<array/>
 	<key>Thonburi</key>
 	<array>
 		<string>Thonburi</string>
