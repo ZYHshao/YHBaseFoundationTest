@@ -101,9 +101,24 @@ typedef enum
     RTLabelComponent * _currentImgComponent;
     RTLabelComponentsStructure *componentsAndPlainText_;
 }
-#warning 添加一个属性
+#warning 添加两个属性
 @property (nonatomic,assign)id<YHRTLabelImageDelegate>imageDelegate;
-
+/**
+ *这个属性设置超链接的字体颜色 16进制颜色值
+ */
+@property (nonatomic,strong)NSString * linkingColorHex;
+/**
+ *点击超链接是否显示阴影效果
+ */
+@property(nonatomic,assign)BOOL isShowLinkingClickShadow;
+/**
+ *超链接字体大小
+ */
+@property(nonatomic,assign)int linkingFontSize;
+/**
+ *设置是否显示超链接下划线
+ */
+@property(nonatomic,assign)BOOL isShowLinkingUnderLine;
 @property (nonatomic, assign) id<RTLabelDelegate> delegate;
 @property (nonatomic, assign) id<RTLabelSizeDelegate> sizeDelegate;
 @property (nonatomic, copy) NSString *paragraphReplacement;

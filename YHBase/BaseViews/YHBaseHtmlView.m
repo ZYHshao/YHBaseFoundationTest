@@ -9,7 +9,7 @@
 #import "YHBaseHtmlView.h"
 #import "RCLabel.h"
 
-@interface YHBaseHtmlView()<YHRTLabelImageDelegate>
+@interface YHBaseHtmlView()<YHRTLabelImageDelegate,RTLabelDelegate>
 {
     RCLabel * _rcLabel;
     //保存属性 用于异步加载完成后刷新
@@ -30,12 +30,35 @@
  // Drawing code
  }
  */
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        _rcLabel = [[RCLabel alloc]init];
+        _rcLabel.delegate=self;
+        [self addSubview:_rcLabel];
+        [_rcLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.leading.equalTo(@0);
+            make.trailing.equalTo(@0);
+            make.top.equalTo(@0);
+            make.bottom.equalTo(@0);
+        }];
+    }
+    return self;
+}
 - (instancetype)initWithCoder:(NSCoder *)coder
 {
     self = [super initWithCoder:coder];
     if (self) {
         _rcLabel = [[RCLabel alloc]init];
+        _rcLabel.delegate=self;
         [self addSubview:_rcLabel];
+        [_rcLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.leading.equalTo(@0);
+            make.trailing.equalTo(@0);
+            make.top.equalTo(@0);
+            make.bottom.equalTo(@0);
+        }];
         
     }
     return self;
@@ -45,8 +68,15 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        _rcLabel = [[RCLabel alloc]initWithFrame:frame];
+        _rcLabel = [[RCLabel alloc]init];
+         _rcLabel.delegate=self;
         [self addSubview:_rcLabel];
+        [_rcLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.leading.equalTo(@0);
+            make.trailing.equalTo(@0);
+            make.top.equalTo(@0);
+            make.bottom.equalTo(@0);
+        }];
         _size=12;
     }
     return self;
@@ -54,7 +84,12 @@
 -(void)reSetHtmlStr:(NSString *)htmlStr{
     _srt = htmlStr;
     NSString * htmlFontStr = [NSString stringWithFormat:@"<font size=%d>%@</font>",_size,_srt];
+    if (_linkingColor) {
+        _rcLabel.linkingColorHex = [YHBaseColorTools YHBaseHexStringFromColor:_linkingColor];
+    }
+    _rcLabel.isShowLinkingClickShadow = _showLinkingShadow;
     _rcLabel.imageDelegate=self;
+    _rcLabel.textColor = _fontColor?_fontColor:_rcLabel.textColor;
     _rcLabel.frame=CGRectMake(0, 0, self.frame.size.width, 0);
     _origenComponent = [RCLabel extractTextStyle:htmlFontStr IsLocation:NO withRCLabel:_rcLabel];
     _rcLabel.componentsAndPlainText = _origenComponent;
@@ -94,7 +129,19 @@
         }
     }
 }
-
+-(void)setLinkingSize:(int)linkingSize{
+    _linkingSize = linkingSize;
+    _rcLabel.linkingFontSize = linkingSize;
+}
+-(void)setShowUnderLine:(BOOL)showUnderLine{
+    _showUnderLine = showUnderLine;
+    _rcLabel.isShowLinkingUnderLine = showUnderLine;
+}
+-(void)rtLabel:(id)rtLabel didSelectLinkWithURL:(NSString *)url{
+    if ([self.delegate respondsToSelector:@selector(YHBaseHtmlView:ClickLink:)]) {
+        [self.delegate YHBaseHtmlView:self ClickLink:url];
+    }
+}
 
 
 @end

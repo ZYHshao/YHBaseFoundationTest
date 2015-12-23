@@ -190,6 +190,7 @@ static NSInteger totalCount = 0;
     totalCount++;
     self = [super initWithCoder:aDecoder];
     if (self) {
+         _linkingFontSize=0;
         [self setBackgroundColor:[UIColor clearColor]];
 		self.font = [UIFont systemFontOfSize:14];
         _originalColor = [[UIColor colorWithRed:0x2e/255.0 green:0x2e/255.0 blue:0x2e/255.0 alpha:1.0] retain];
@@ -217,6 +218,7 @@ static NSInteger totalCount = 0;
     totalCount++;
     self = [super initWithFrame:_frame];
     if (self) {
+        _linkingFontSize=0;
         // Initialization code.
 		[self setBackgroundColor:[UIColor clearColor]];
 		self.font = [UIFont systemFontOfSize:14];
@@ -515,8 +517,6 @@ CGFloat MyGetWidthCallback( void* refCon ){
             }
             linkComponentString = [self.componentsAndPlainText.plainTextData substringWithRange:NSMakeRange(linkComponent.position, rangeLength)];
         }
-        NSLog(@"%@",linkComponentString);
-       
         
         
         if ([[linkComponentString substringToIndex:1] isEqualToString:@"\n"]) {
@@ -679,14 +679,15 @@ CGFloat MyGetWidthCallback( void* refCon ){
                         //Adjust the runBounds according to the line original position 
                         
                         // Finally, create a rounded rect with a nice shadow and fill.
-                        
-                        CGContextSetFillColorWithColor(context, [[UIColor grayColor] CGColor]);
-                        CGPathRef highlightPath = [self newPathForRoundedRect:runBounds radius:(runBounds.size.height / 10.0)];
-                        CGContextSetShadow(context, CGSizeMake(2, 2), 1.0);
-                        CGContextAddPath(context, highlightPath);
-                        CGContextFillPath(context);
-                        CGPathRelease(highlightPath);
-                        CGContextSetShadowWithColor(context, CGSizeZero, 0.0, NULL);
+                        if (_isShowLinkingClickShadow) {
+                            CGContextSetFillColorWithColor(context, [[UIColor grayColor] CGColor]);
+                            CGPathRef highlightPath = [self newPathForRoundedRect:runBounds radius:(runBounds.size.height / 10.0)];
+                            CGContextSetShadow(context, CGSizeMake(2, 2), 1.0);
+                            CGContextAddPath(context, highlightPath);
+                            CGContextFillPath(context);
+                            CGPathRelease(highlightPath);
+                            CGContextSetShadowWithColor(context, CGSizeZero, 0.0, NULL);
+                        }
                         
                     }
                     
@@ -915,13 +916,27 @@ CGFloat MyGetWidthCallback( void* refCon ){
 
 - (void)applySingleUnderlineText:(CFMutableAttributedStringRef)text atPosition:(int)position withLength:(int)length
 {
-    CFStringRef keys[] = { kCTUnderlineStyleAttributeName };
-    CFTypeRef values[] = { (CFNumberRef)[NSNumber numberWithInt:kCTUnderlineStyleSingle] };
+    if (_isShowLinkingUnderLine) {
+         CTFontRef font = CTFontCreateWithName((CFStringRef)[UIFont systemFontOfSize:!_linkingFontSize?17:_linkingFontSize].fontName, !_linkingFontSize?17:_linkingFontSize, NULL);
+        CFStringRef keys[] = { kCTUnderlineStyleAttributeName , kCTFontAttributeName};
+        CFTypeRef values[] = { (CFNumberRef)[NSNumber numberWithInt:kCTUnderlineStyleSingle],font};
+        
+        CFDictionaryRef fontDict = CFDictionaryCreate(NULL, (const void **)&keys, (const void **)&values, sizeof(keys) / sizeof(keys[0]), NULL, NULL);
+        
+        CFAttributedStringSetAttributes(text, CFRangeMake(position, length), fontDict, 0);
+        CFRelease(fontDict);
+        
+    }else{
+        CTFontRef font = CTFontCreateWithName((CFStringRef)[UIFont systemFontOfSize:!_linkingFontSize?17:_linkingFontSize].fontName, !_linkingFontSize?17:_linkingFontSize, NULL);
+        CFStringRef keys[] = { kCTFontAttributeName};
+        CFTypeRef values[] = { font};
+        
+        CFDictionaryRef fontDict = CFDictionaryCreate(NULL, (const void **)&keys, (const void **)&values, sizeof(keys) / sizeof(keys[0]), NULL, NULL);
+        
+        CFAttributedStringSetAttributes(text, CFRangeMake(position, length), fontDict, 0);
+        CFRelease(fontDict);
+    }
     
-    CFDictionaryRef fontDict = CFDictionaryCreate(NULL, (const void **)&keys, (const void **)&values, sizeof(keys) / sizeof(keys[0]), NULL, NULL);
-    
-    CFAttributedStringSetAttributes(text, CFRangeMake(position, length), fontDict, 0);
-    CFRelease(fontDict);
 	
 }
 
@@ -1654,14 +1669,14 @@ CGFloat MyGetWidthCallback( void* refCon ){
                 
             [self applyBoldStyleToText:_attrString atPosition:component.position withLength:[component.text length]];
             if(![self.textColor isEqual:[UIColor whiteColor]]) {
-                [self applyColor:@"#16387C" toText:_attrString atPosition:component.position withLength:[component.text length]];
+                [self applyColor:_linkingColorHex?_linkingColorHex:@"#16387C" toText:_attrString atPosition:component.position withLength:[component.text length]];
             }
             else {
-                [self applyColor:nil toText:_attrString atPosition:component.position withLength:[component.text length]];
+                [self applyColor:_linkingColorHex?_linkingColorHex:nil toText:_attrString atPosition:component.position withLength:[component.text length]];
                 
             }
             
-            //[self applySingleUnderlineText:_attrString atPosition:component.position withLength:[component.text length]];
+            [self applySingleUnderlineText:_attrString atPosition:component.position withLength:[component.text length]];
 				
 			
 			

@@ -10,6 +10,8 @@
 		18E9A8F01BA51BD30083F148 /* UIView+SubViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E9A8EF1BA51BD30083F148 /* UIView+SubViews.m */; };
 		25682DF11BC7D39D004AED0D /* font.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25682DF01BC7D39D004AED0D /* font.plist */; };
 		25682DF41BC7D61C004AED0D /* YHBaseFontTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 25682DF31BC7D61C004AED0D /* YHBaseFontTools.m */; };
+		25D9EF151C2A8D84005E03B9 /* YHBaseLinkingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D9EF141C2A8D84005E03B9 /* YHBaseLinkingLabel.m */; settings = {ASSET_TAGS = (); }; };
+		25D9EF181C2A93EA005E03B9 /* YHBaseColorTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D9EF171C2A93EA005E03B9 /* YHBaseColorTools.m */; settings = {ASSET_TAGS = (); }; };
 		8BC2FC1E330ABA30C280BEC3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DBFAC3F747F22811425A971B /* libPods.a */; };
 		CE2E8FEF1BA188E1004927B1 /* YHBaseTestTools.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2E8FEE1BA188E1004927B1 /* YHBaseTestTools.m */; };
 		CE2E8FF21BA18A21004927B1 /* YHBaseTestLock.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2E8FF11BA18A21004927B1 /* YHBaseTestLock.m */; };
@@ -82,6 +84,10 @@
 		25682DF21BC7D61C004AED0D /* YHBaseFontTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBaseFontTools.h; sourceTree = "<group>"; };
 		25682DF31BC7D61C004AED0D /* YHBaseFontTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHBaseFontTools.m; sourceTree = "<group>"; };
 		256D1B771BB39192009B7758 /* YHBaseDefaul.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBaseDefaul.h; sourceTree = "<group>"; };
+		25D9EF131C2A8D84005E03B9 /* YHBaseLinkingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBaseLinkingLabel.h; sourceTree = "<group>"; };
+		25D9EF141C2A8D84005E03B9 /* YHBaseLinkingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHBaseLinkingLabel.m; sourceTree = "<group>"; };
+		25D9EF161C2A93EA005E03B9 /* YHBaseColorTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBaseColorTools.h; sourceTree = "<group>"; };
+		25D9EF171C2A93EA005E03B9 /* YHBaseColorTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHBaseColorTools.m; sourceTree = "<group>"; };
 		A318A98D430F05EA09A351C0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C60B8F3517AC1B3ADE17E9DD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		CE2E8FED1BA188E1004927B1 /* YHBaseTestTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBaseTestTools.h; sourceTree = "<group>"; };
@@ -479,6 +485,8 @@
 				CE89DBC11B9D60560006B123 /* YHBaseTypesettingEngine.m */,
 				25682DF21BC7D61C004AED0D /* YHBaseFontTools.h */,
 				25682DF31BC7D61C004AED0D /* YHBaseFontTools.m */,
+				25D9EF161C2A93EA005E03B9 /* YHBaseColorTools.h */,
+				25D9EF171C2A93EA005E03B9 /* YHBaseColorTools.m */,
 			);
 			path = BaseTools;
 			sourceTree = "<group>";
@@ -513,6 +521,8 @@
 				CE89DBE21B9D60560006B123 /* YHBaseView.m */,
 				CE6BDF2E1BA6C04A0070B607 /* YHBaseHtmlView.h */,
 				CE6BDF2F1BA6C04A0070B607 /* YHBaseHtmlView.m */,
+				25D9EF131C2A8D84005E03B9 /* YHBaseLinkingLabel.h */,
+				25D9EF141C2A8D84005E03B9 /* YHBaseLinkingLabel.m */,
 			);
 			path = BaseViews;
 			sourceTree = "<group>";
@@ -723,12 +733,14 @@
 				CE89DBFE1B9D60560006B123 /* YHBaseSelfServiceDrawView.m in Sources */,
 				CE89DBE81B9D60560006B123 /* NSDictionary+YHBaseJson.m in Sources */,
 				CE89DC091B9D60560006B123 /* YHBaseTextView.m in Sources */,
+				25D9EF151C2A8D84005E03B9 /* YHBaseLinkingLabel.m in Sources */,
 				CE89DBE61B9D60560006B123 /* NSArray+YHBaseJson.m in Sources */,
 				CE89DBE91B9D60560006B123 /* YHBaseNavigationController.m in Sources */,
 				CE89DBE51B9D60560006B123 /* YHBaseAVPlayer.m in Sources */,
 				CE89DBFB1B9D60560006B123 /* YHBaseTypesettingEngine.m in Sources */,
 				CE89DC001B9D60560006B123 /* YHBaseActivityIndicatorView.m in Sources */,
 				CE89DC041B9D60560006B123 /* YHBaseLabel.m in Sources */,
+				25D9EF181C2A93EA005E03B9 /* YHBaseColorTools.m in Sources */,
 				CE89DBEF1B9D60560006B123 /* YHBaseHttpRequestObject.m in Sources */,
 				CE89DBED1B9D60560006B123 /* YHBaseCecheCenter.m in Sources */,
 				CE2E8FEF1BA188E1004927B1 /* YHBaseTestTools.m in Sources */,
