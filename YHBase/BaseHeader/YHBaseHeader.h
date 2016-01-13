@@ -34,4 +34,5 @@
 #import "YHBaseHttpManager.h"
 #import "YHBaseFontTools.h"
 #import "YHBaseColorTools.h"
+#import "YHBaseSQLiteManager.h"
 #endif

@@ -33,6 +33,7 @@
     _audioCechePath = [NSHomeDirectory() stringByAppendingString:YH_BASE_CECHE_PATH_AUDIO];
     _videoCechePath = [NSHomeDirectory() stringByAppendingString:YH_BASE_CECHE_PATH_VEDIO];
     _archiverPath = [NSHomeDirectory() stringByAppendingString:YH_BASE_CECHE_PATH_Archiver];
+    _dataBasePath = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES).firstObject;
 }
 
 
@@ -113,6 +114,11 @@
             return _archiverPath;
         }
             break;
+        case 7:
+        {
+            return _dataBasePath;
+        }
+            break;
         default:
             return _mainCechePath;
             break;
@@ -189,5 +195,16 @@
     YHBaseModel * model = [unArchiver decodeObjectForKey:key];
     [unArchiver finishDecoding];
     return model;
+}
+//=================================数据库相关方法===============
+-(NSString *)getDataBaseFilePath{
+    return [self getCechePath:YHBaseDataBase];
+}
+-(float)getSizeFromDataBaseName:(NSString *)name{
+    NSString * path = [NSString stringWithFormat:@"/%@/%@",[self getCechePath:YHBaseDataBase],name];
+    return  [self fileSizeAtPath:path]/(1024.0*1024.0);
+}
+-(float)getAllDataBaseSize{
+   return  [self getSizeFromCachePath:YHBaseDataBase];
 }
 @end

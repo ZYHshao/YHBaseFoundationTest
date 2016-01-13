@@ -36,6 +36,17 @@ __PROPERTY_NO_STRONG__READLY__(NSString *, audioCechePath);
  *归档的地址
  */
 __PROPERTY_NO_STRONG__READLY__(NSString *, archiverPath);
+/**
+ *数据库地址
+ *tip 数据库不与缓存共享 使用独立的空间与方法存取
+ */
+__PROPERTY_NO_STRONG__READLY__(NSString *, dataBasePath);
+
+/**
+ *  下面这些方法进行缓存的操作
+ *
+ *
+ */
 
 /**
  *  @author jaki, 15-09-29 18:09:02
@@ -115,4 +126,32 @@ __PROPERTY_NO_STRONG__READLY__(NSString *, archiverPath);
  *
  */
 -(YHBaseModel *)getValueModel:(NSString *)key;
+/******************************************
+ 下面这些方法用于数据库的操作
+ *************************************************/
+/**
+ *  @brief 获取数据库方法的地址
+ *
+ *  @return 地址字符串
+ *
+ */
+-(NSString *)getDataBaseFilePath;
+/**
+ *  @brief 获取某个数据库的大小
+ *
+ *  @param name 数据库名称
+ *
+ *  @return 文件大小 单位M
+ *
+ */
+-(float)getSizeFromDataBaseName:(NSString *)name;
+/**
+ *  @brief 获取数据库所有文件大小
+ *
+ *  @return 文件大小 单位M
+ *
+ */
+-(float)getAllDataBaseSize;
+
+
 @end

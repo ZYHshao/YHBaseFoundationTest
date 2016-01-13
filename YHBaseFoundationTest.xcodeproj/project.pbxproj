@@ -8,8 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		18E9A8F01BA51BD30083F148 /* UIView+SubViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E9A8EF1BA51BD30083F148 /* UIView+SubViews.m */; };
+		252F638D1C44B9C8003BCA9F /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 252F638C1C44B9C7003BCA9F /* libsqlite3.tbd */; };
+		252F63901C44BA51003BCA9F /* YHBaseSQLiteContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 252F638F1C44BA51003BCA9F /* YHBaseSQLiteContext.m */; settings = {ASSET_TAGS = (); }; };
+		252F63931C44D0A9003BCA9F /* YHBaseSQLError.m in Sources */ = {isa = PBXBuildFile; fileRef = 252F63921C44D0A9003BCA9F /* YHBaseSQLError.m */; settings = {ASSET_TAGS = (); }; };
 		25682DF11BC7D39D004AED0D /* font.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25682DF01BC7D39D004AED0D /* font.plist */; };
 		25682DF41BC7D61C004AED0D /* YHBaseFontTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 25682DF31BC7D61C004AED0D /* YHBaseFontTools.m */; };
+		25850ED21C44B29E008C13E3 /* YHBaseSQLiteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 25850ED11C44B29E008C13E3 /* YHBaseSQLiteManager.m */; settings = {ASSET_TAGS = (); }; };
 		25D9EF151C2A8D84005E03B9 /* YHBaseLinkingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D9EF141C2A8D84005E03B9 /* YHBaseLinkingLabel.m */; settings = {ASSET_TAGS = (); }; };
 		25D9EF181C2A93EA005E03B9 /* YHBaseColorTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D9EF171C2A93EA005E03B9 /* YHBaseColorTools.m */; settings = {ASSET_TAGS = (); }; };
 		8BC2FC1E330ABA30C280BEC3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DBFAC3F747F22811425A971B /* libPods.a */; };
@@ -80,10 +84,18 @@
 /* Begin PBXFileReference section */
 		18E9A8EE1BA51BD30083F148 /* UIView+SubViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SubViews.h"; sourceTree = "<group>"; };
 		18E9A8EF1BA51BD30083F148 /* UIView+SubViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SubViews.m"; sourceTree = "<group>"; };
+		252F638C1C44B9C7003BCA9F /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		252F638E1C44BA51003BCA9F /* YHBaseSQLiteContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBaseSQLiteContext.h; sourceTree = "<group>"; };
+		252F638F1C44BA51003BCA9F /* YHBaseSQLiteContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHBaseSQLiteContext.m; sourceTree = "<group>"; };
+		252F63911C44D0A9003BCA9F /* YHBaseSQLError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBaseSQLError.h; sourceTree = "<group>"; };
+		252F63921C44D0A9003BCA9F /* YHBaseSQLError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHBaseSQLError.m; sourceTree = "<group>"; };
+		252F63941C44D710003BCA9F /* YHBaseSQLTypeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHBaseSQLTypeHeader.h; sourceTree = "<group>"; };
 		25682DF01BC7D39D004AED0D /* font.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = font.plist; sourceTree = "<group>"; };
 		25682DF21BC7D61C004AED0D /* YHBaseFontTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBaseFontTools.h; sourceTree = "<group>"; };
 		25682DF31BC7D61C004AED0D /* YHBaseFontTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHBaseFontTools.m; sourceTree = "<group>"; };
 		256D1B771BB39192009B7758 /* YHBaseDefaul.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBaseDefaul.h; sourceTree = "<group>"; };
+		25850ED01C44B29E008C13E3 /* YHBaseSQLiteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBaseSQLiteManager.h; sourceTree = "<group>"; };
+		25850ED11C44B29E008C13E3 /* YHBaseSQLiteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHBaseSQLiteManager.m; sourceTree = "<group>"; };
 		25D9EF131C2A8D84005E03B9 /* YHBaseLinkingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBaseLinkingLabel.h; sourceTree = "<group>"; };
 		25D9EF141C2A8D84005E03B9 /* YHBaseLinkingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHBaseLinkingLabel.m; sourceTree = "<group>"; };
 		25D9EF161C2A93EA005E03B9 /* YHBaseColorTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBaseColorTools.h; sourceTree = "<group>"; };
@@ -210,6 +222,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				252F638D1C44B9C8003BCA9F /* libsqlite3.tbd in Frameworks */,
 				8BC2FC1E330ABA30C280BEC3 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,9 +254,24 @@
 			path = BaseSouce;
 			sourceTree = "<group>";
 		};
+		25850ECF1C44B216008C13E3 /* YHBaseSQLiteManager */ = {
+			isa = PBXGroup;
+			children = (
+				25850ED01C44B29E008C13E3 /* YHBaseSQLiteManager.h */,
+				25850ED11C44B29E008C13E3 /* YHBaseSQLiteManager.m */,
+				252F638E1C44BA51003BCA9F /* YHBaseSQLiteContext.h */,
+				252F638F1C44BA51003BCA9F /* YHBaseSQLiteContext.m */,
+				252F63911C44D0A9003BCA9F /* YHBaseSQLError.h */,
+				252F63921C44D0A9003BCA9F /* YHBaseSQLError.m */,
+				252F63941C44D710003BCA9F /* YHBaseSQLTypeHeader.h */,
+			);
+			path = YHBaseSQLiteManager;
+			sourceTree = "<group>";
+		};
 		36576498ECA6A17148364D4F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				252F638C1C44B9C7003BCA9F /* libsqlite3.tbd */,
 				DBFAC3F747F22811425A971B /* libPods.a */,
 			);
 			name = Frameworks;
@@ -395,6 +423,7 @@
 		CE89DB921B9D60560006B123 /* BaseManagers */ = {
 			isa = PBXGroup;
 			children = (
+				25850ECF1C44B216008C13E3 /* YHBaseSQLiteManager */,
 				CE89DC0D1B9D63BA0006B123 /* YHTopicColorManager.h */,
 				CE89DC0E1B9D63BA0006B123 /* YHTopicColorManager.m */,
 				CE89DB931B9D60560006B123 /* YHBaseErrorCenter */,
@@ -728,6 +757,7 @@
 				CE89DBFA1B9D60560006B123 /* YHBaseStringTools.m in Sources */,
 				CE89DC071B9D60560006B123 /* YHBaseScrollView.m in Sources */,
 				CE89DBE41B9D60560006B123 /* AudioStreamer.m in Sources */,
+				252F63901C44BA51003BCA9F /* YHBaseSQLiteContext.m in Sources */,
 				CE89DBFC1B9D60560006B123 /* YHBaseCalendarView.m in Sources */,
 				CE2E8FF51BA18E52004927B1 /* UIViewController+YHBaseTest.m in Sources */,
 				CE89DBFE1B9D60560006B123 /* YHBaseSelfServiceDrawView.m in Sources */,
@@ -744,6 +774,8 @@
 				CE89DBEF1B9D60560006B123 /* YHBaseHttpRequestObject.m in Sources */,
 				CE89DBED1B9D60560006B123 /* YHBaseCecheCenter.m in Sources */,
 				CE2E8FEF1BA188E1004927B1 /* YHBaseTestTools.m in Sources */,
+				25850ED21C44B29E008C13E3 /* YHBaseSQLiteManager.m in Sources */,
+				252F63931C44D0A9003BCA9F /* YHBaseSQLError.m in Sources */,
 				CE89DBF51B9D60560006B123 /* YHBaseCoreGraphicsTools.m in Sources */,
 				CE2E8FF21BA18A21004927B1 /* YHBaseTestLock.m in Sources */,
 				CEE5C5BD1B9FD18800B9AD22 /* UIView+Responder.m in Sources */,
