@@ -44,8 +44,8 @@
  */
 +(float)getAllSizeOfDataBase;
 /**
- *  @brief 删除一个数据库文件
+ *  @brief 删除所有数据库
  *
  */
-+(void)removeDataBase:(NSString *)dataBaseName;
++(void)removeDataBase;
 @end

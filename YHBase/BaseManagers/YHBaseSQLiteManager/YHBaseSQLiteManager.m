@@ -39,7 +39,7 @@
 +(float)getAllSizeOfDataBase{
     return [[YHBaseCecheCenter sharedTheSingletion]getAllDataBaseSize];
 }
-+(void)removeDataBase:(NSString *)dataBaseName{
++(void)removeDataBase{
     return [[YHBaseCecheCenter sharedTheSingletion]removeCacheFromPath:YHBaseDataBase];
 }
 @end

@@ -21,6 +21,7 @@
 -(BOOL)openDataBaeWithName:(NSString *)path{
     if (sqlite3_open([path UTF8String], &_sqlite3_db)!=SQLITE_OK) {
         sqlite3_close(_sqlite3_db);
+        _sqlite3_db=nil;
         return NO;
     }else{
         return YES;
@@ -262,6 +263,7 @@
              [resultArray addObject:dic];
         }
          sqlite3_finalize(stmt);
+        stmt=nil;
         complete(resultArray,nil);
     }
 }
@@ -280,6 +282,7 @@
         [array addObject:dic];
     }
      sqlite3_finalize(statement);
+    statement=nil;
     return array;
 }
 
