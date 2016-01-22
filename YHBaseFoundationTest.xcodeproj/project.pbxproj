@@ -14,6 +14,10 @@
 		25682DF11BC7D39D004AED0D /* font.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25682DF01BC7D39D004AED0D /* font.plist */; };
 		25682DF41BC7D61C004AED0D /* YHBaseFontTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 25682DF31BC7D61C004AED0D /* YHBaseFontTools.m */; };
 		25850ED21C44B29E008C13E3 /* YHBaseSQLiteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 25850ED11C44B29E008C13E3 /* YHBaseSQLiteManager.m */; settings = {ASSET_TAGS = (); }; };
+		25B481FA1C521729009A9BBA /* UILabel+YHBaseChangeDefaultFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B481F91C521729009A9BBA /* UILabel+YHBaseChangeDefaultFont.m */; settings = {ASSET_TAGS = (); }; };
+		25B481FD1C52187B009A9BBA /* UIImageView+YHGifImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B481FC1C52187B009A9BBA /* UIImageView+YHGifImage.m */; settings = {ASSET_TAGS = (); }; };
+		25B481FF1C522318009A9BBA /* 20051103121420947.gif in Resources */ = {isa = PBXBuildFile; fileRef = 25B481FE1C522318009A9BBA /* 20051103121420947.gif */; settings = {ASSET_TAGS = (); }; };
+		25B482011C522B24009A9BBA /* bag.png in Resources */ = {isa = PBXBuildFile; fileRef = 25B482001C522B24009A9BBA /* bag.png */; settings = {ASSET_TAGS = (); }; };
 		25D9EF151C2A8D84005E03B9 /* YHBaseLinkingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D9EF141C2A8D84005E03B9 /* YHBaseLinkingLabel.m */; settings = {ASSET_TAGS = (); }; };
 		25D9EF181C2A93EA005E03B9 /* YHBaseColorTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D9EF171C2A93EA005E03B9 /* YHBaseColorTools.m */; settings = {ASSET_TAGS = (); }; };
 		8BC2FC1E330ABA30C280BEC3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DBFAC3F747F22811425A971B /* libPods.a */; };
@@ -96,6 +100,12 @@
 		256D1B771BB39192009B7758 /* YHBaseDefaul.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBaseDefaul.h; sourceTree = "<group>"; };
 		25850ED01C44B29E008C13E3 /* YHBaseSQLiteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBaseSQLiteManager.h; sourceTree = "<group>"; };
 		25850ED11C44B29E008C13E3 /* YHBaseSQLiteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHBaseSQLiteManager.m; sourceTree = "<group>"; };
+		25B481F81C521729009A9BBA /* UILabel+YHBaseChangeDefaultFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+YHBaseChangeDefaultFont.h"; sourceTree = "<group>"; };
+		25B481F91C521729009A9BBA /* UILabel+YHBaseChangeDefaultFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+YHBaseChangeDefaultFont.m"; sourceTree = "<group>"; };
+		25B481FB1C52187B009A9BBA /* UIImageView+YHGifImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+YHGifImage.h"; sourceTree = "<group>"; };
+		25B481FC1C52187B009A9BBA /* UIImageView+YHGifImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+YHGifImage.m"; sourceTree = "<group>"; };
+		25B481FE1C522318009A9BBA /* 20051103121420947.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 20051103121420947.gif; sourceTree = "<group>"; };
+		25B482001C522B24009A9BBA /* bag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bag.png; sourceTree = "<group>"; };
 		25D9EF131C2A8D84005E03B9 /* YHBaseLinkingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBaseLinkingLabel.h; sourceTree = "<group>"; };
 		25D9EF141C2A8D84005E03B9 /* YHBaseLinkingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHBaseLinkingLabel.m; sourceTree = "<group>"; };
 		25D9EF161C2A93EA005E03B9 /* YHBaseColorTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBaseColorTools.h; sourceTree = "<group>"; };
@@ -268,6 +278,15 @@
 			path = YHBaseSQLiteManager;
 			sourceTree = "<group>";
 		};
+		25B481F71C521729009A9BBA /* YHBaseFontCategory */ = {
+			isa = PBXGroup;
+			children = (
+				25B481F81C521729009A9BBA /* UILabel+YHBaseChangeDefaultFont.h */,
+				25B481F91C521729009A9BBA /* UILabel+YHBaseChangeDefaultFont.m */,
+			);
+			path = YHBaseFontCategory;
+			sourceTree = "<group>";
+		};
 		36576498ECA6A17148364D4F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -316,6 +335,8 @@
 				CE89DB5D1B9D5F8D0006B123 /* AppDelegate.m */,
 				CE89DB5F1B9D5F8D0006B123 /* ViewController.h */,
 				CE89DB601B9D5F8D0006B123 /* ViewController.m */,
+				25B482001C522B24009A9BBA /* bag.png */,
+				25B481FE1C522318009A9BBA /* 20051103121420947.gif */,
 				CE89DB621B9D5F8D0006B123 /* Main.storyboard */,
 				CE89DB651B9D5F8D0006B123 /* Images.xcassets */,
 				CE89DB671B9D5F8D0006B123 /* LaunchScreen.xib */,
@@ -382,6 +403,7 @@
 		CE89DB841B9D60560006B123 /* BaseCategory */ = {
 			isa = PBXGroup;
 			children = (
+				25B481F71C521729009A9BBA /* YHBaseFontCategory */,
 				18E9A8EE1BA51BD30083F148 /* UIView+SubViews.h */,
 				18E9A8EF1BA51BD30083F148 /* UIView+SubViews.m */,
 				CEE5C5BB1B9FD18800B9AD22 /* UIView+Responder.h */,
@@ -394,6 +416,8 @@
 				CE89DB8A1B9D60560006B123 /* NSDictionary+YHBaseJson.m */,
 				CE2E8FF31BA18E52004927B1 /* UIViewController+YHBaseTest.h */,
 				CE2E8FF41BA18E52004927B1 /* UIViewController+YHBaseTest.m */,
+				25B481FB1C52187B009A9BBA /* UIImageView+YHGifImage.h */,
+				25B481FC1C52187B009A9BBA /* UIImageView+YHGifImage.m */,
 			);
 			path = BaseCategory;
 			sourceTree = "<group>";
@@ -659,9 +683,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25B482011C522B24009A9BBA /* bag.png in Resources */,
 				CE89DB641B9D5F8D0006B123 /* Main.storyboard in Resources */,
 				CE89DB691B9D5F8D0006B123 /* LaunchScreen.xib in Resources */,
 				CE89DB661B9D5F8D0006B123 /* Images.xcassets in Resources */,
+				25B481FF1C522318009A9BBA /* 20051103121420947.gif in Resources */,
 				25682DF11BC7D39D004AED0D /* font.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -765,6 +791,7 @@
 				CE89DC091B9D60560006B123 /* YHBaseTextView.m in Sources */,
 				25D9EF151C2A8D84005E03B9 /* YHBaseLinkingLabel.m in Sources */,
 				CE89DBE61B9D60560006B123 /* NSArray+YHBaseJson.m in Sources */,
+				25B481FD1C52187B009A9BBA /* UIImageView+YHGifImage.m in Sources */,
 				CE89DBE91B9D60560006B123 /* YHBaseNavigationController.m in Sources */,
 				CE89DBE51B9D60560006B123 /* YHBaseAVPlayer.m in Sources */,
 				CE89DBFB1B9D60560006B123 /* YHBaseTypesettingEngine.m in Sources */,
@@ -780,6 +807,7 @@
 				CE2E8FF21BA18A21004927B1 /* YHBaseTestLock.m in Sources */,
 				CEE5C5BD1B9FD18800B9AD22 /* UIView+Responder.m in Sources */,
 				CE89DBF11B9D60560006B123 /* YHBaseTimerManager.m in Sources */,
+				25B481FA1C521729009A9BBA /* UILabel+YHBaseChangeDefaultFont.m in Sources */,
 				CE89DBE71B9D60560006B123 /* NSDate+YHBaseCalendar.m in Sources */,
 				25682DF41BC7D61C004AED0D /* YHBaseFontTools.m in Sources */,
 				CE89DBF61B9D60560006B123 /* YHBaseData.m in Sources */,

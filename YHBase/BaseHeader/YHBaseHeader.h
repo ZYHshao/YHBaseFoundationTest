@@ -29,6 +29,7 @@
 #import "YHBaseDateModel.h"
 #import "UIView+Responder.h"
 #import "UIView+SubViews.h"
+#import "UIImageView+YHGifImage.h"
 #import "YHBaseTableViewController.h"
 #import "YHBaseTestTools.h"
 #import "YHBaseHttpManager.h"
