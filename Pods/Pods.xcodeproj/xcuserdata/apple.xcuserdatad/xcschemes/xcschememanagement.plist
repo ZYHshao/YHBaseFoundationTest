@@ -4,6 +4,31 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AFNetworking.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+		<key>DTCoreText.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
+		<key>DTFoundation.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
+		<key>MJRefresh.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
+		<key>Masonry.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
 		<key>Pods-AFNetworking.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -44,10 +69,30 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>RegexKitLite.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>1C42B985EB75216E4419C2CE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2602F3D0DAC534568B6AD7EEA0DD1959</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>34E805287395908980148666EA8D1092</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -62,12 +107,37 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>53402BDE5D15A874C415114C0CCDEF51</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>53480ED0BE09FF49E34B1702D485CAAB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>654BB39F04A2E637B7E6347447902235</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8F74D9EA91F4C43190670066BAC37D44</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>B39FA0583B3C261392943307</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>D6A6CD0F419EE81601974508</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DD684CEF78B7725D997FF4EABD47BD10</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -83,6 +153,11 @@
 			<true/>
 		</dict>
 		<key>E4D3205B06A9B1F9D6B25C13</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E971D2726498D5C9688F9387577F2923</key>
 		<dict>
 			<key>primary</key>
 			<true/>

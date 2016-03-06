@@ -13,7 +13,7 @@
 
 @interface YHBaseSQLiteManager : YHBaseManager
 /**
- *  @brief 打开一个数据库 如果不存在则会创建
+ *  @brief 打开一个内部数据库 如果不存在则会创建
  *
  *  @param name 数据库名称
  *
@@ -21,6 +21,15 @@
  *
  */
 +(YHBaseSQLiteContext *)openSQLiteWithName:(NSString *)name;
+/**
+ *
+ *  @brief 打开一个外部数据库
+ *
+ *  @param path 外部数据库路径
+ *
+ *  @return 数据库操作对象 如果失败 会返回nil
+ */
++(YHBaseSQLiteContext *)openSQLiteWithPath:(NSString *)path;
 /**
  *  @brief 获取数据库文件的大小 单位M
  *

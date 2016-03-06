@@ -30,6 +30,19 @@
         return nil;
     }
 }
+
++(YHBaseSQLiteContext *)openSQLiteWithPath:(NSString *)path{
+    YHBaseSQLiteContext * context = [[YHBaseSQLiteContext alloc]init];
+    NSString * name = [path componentsSeparatedByString:@"/"].lastObject;
+    context.name = name;
+    BOOL success = [context openDataBaeWithName:path];
+    if (success) {
+        return context;
+    }else{
+        return nil;
+    }
+}
+
 +(float)getSizeOfDataBase:(YHBaseSQLiteContext *)dataBase{
     return [[YHBaseCecheCenter sharedTheSingletion]getSizeFromDataBaseName:dataBase.name];
 }

@@ -9,17 +9,15 @@
 /* Begin PBXBuildFile section */
 		18E9A8F01BA51BD30083F148 /* UIView+SubViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E9A8EF1BA51BD30083F148 /* UIView+SubViews.m */; };
 		252F638D1C44B9C8003BCA9F /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 252F638C1C44B9C7003BCA9F /* libsqlite3.tbd */; };
-		252F63901C44BA51003BCA9F /* YHBaseSQLiteContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 252F638F1C44BA51003BCA9F /* YHBaseSQLiteContext.m */; settings = {ASSET_TAGS = (); }; };
-		252F63931C44D0A9003BCA9F /* YHBaseSQLError.m in Sources */ = {isa = PBXBuildFile; fileRef = 252F63921C44D0A9003BCA9F /* YHBaseSQLError.m */; settings = {ASSET_TAGS = (); }; };
+		252F63901C44BA51003BCA9F /* YHBaseSQLiteContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 252F638F1C44BA51003BCA9F /* YHBaseSQLiteContext.m */; };
+		252F63931C44D0A9003BCA9F /* YHBaseSQLError.m in Sources */ = {isa = PBXBuildFile; fileRef = 252F63921C44D0A9003BCA9F /* YHBaseSQLError.m */; };
 		25682DF11BC7D39D004AED0D /* font.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25682DF01BC7D39D004AED0D /* font.plist */; };
 		25682DF41BC7D61C004AED0D /* YHBaseFontTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 25682DF31BC7D61C004AED0D /* YHBaseFontTools.m */; };
-		25850ED21C44B29E008C13E3 /* YHBaseSQLiteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 25850ED11C44B29E008C13E3 /* YHBaseSQLiteManager.m */; settings = {ASSET_TAGS = (); }; };
-		25B481FA1C521729009A9BBA /* UILabel+YHBaseChangeDefaultFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B481F91C521729009A9BBA /* UILabel+YHBaseChangeDefaultFont.m */; settings = {ASSET_TAGS = (); }; };
-		25B481FD1C52187B009A9BBA /* UIImageView+YHGifImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B481FC1C52187B009A9BBA /* UIImageView+YHGifImage.m */; settings = {ASSET_TAGS = (); }; };
-		25B481FF1C522318009A9BBA /* 20051103121420947.gif in Resources */ = {isa = PBXBuildFile; fileRef = 25B481FE1C522318009A9BBA /* 20051103121420947.gif */; settings = {ASSET_TAGS = (); }; };
-		25B482011C522B24009A9BBA /* bag.png in Resources */ = {isa = PBXBuildFile; fileRef = 25B482001C522B24009A9BBA /* bag.png */; settings = {ASSET_TAGS = (); }; };
-		25D9EF151C2A8D84005E03B9 /* YHBaseLinkingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D9EF141C2A8D84005E03B9 /* YHBaseLinkingLabel.m */; settings = {ASSET_TAGS = (); }; };
-		25D9EF181C2A93EA005E03B9 /* YHBaseColorTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D9EF171C2A93EA005E03B9 /* YHBaseColorTools.m */; settings = {ASSET_TAGS = (); }; };
+		25850ED21C44B29E008C13E3 /* YHBaseSQLiteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 25850ED11C44B29E008C13E3 /* YHBaseSQLiteManager.m */; };
+		25B481FA1C521729009A9BBA /* UILabel+YHBaseChangeDefaultFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B481F91C521729009A9BBA /* UILabel+YHBaseChangeDefaultFont.m */; };
+		25B481FD1C52187B009A9BBA /* UIImageView+YHGifImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B481FC1C52187B009A9BBA /* UIImageView+YHGifImage.m */; };
+		25D9EF151C2A8D84005E03B9 /* YHBaseLinkingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D9EF141C2A8D84005E03B9 /* YHBaseLinkingLabel.m */; };
+		25D9EF181C2A93EA005E03B9 /* YHBaseColorTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D9EF171C2A93EA005E03B9 /* YHBaseColorTools.m */; };
 		8BC2FC1E330ABA30C280BEC3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DBFAC3F747F22811425A971B /* libPods.a */; };
 		CE2E8FEF1BA188E1004927B1 /* YHBaseTestTools.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2E8FEE1BA188E1004927B1 /* YHBaseTestTools.m */; };
 		CE2E8FF21BA18A21004927B1 /* YHBaseTestLock.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2E8FF11BA18A21004927B1 /* YHBaseTestLock.m */; };
@@ -104,8 +102,6 @@
 		25B481F91C521729009A9BBA /* UILabel+YHBaseChangeDefaultFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+YHBaseChangeDefaultFont.m"; sourceTree = "<group>"; };
 		25B481FB1C52187B009A9BBA /* UIImageView+YHGifImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+YHGifImage.h"; sourceTree = "<group>"; };
 		25B481FC1C52187B009A9BBA /* UIImageView+YHGifImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+YHGifImage.m"; sourceTree = "<group>"; };
-		25B481FE1C522318009A9BBA /* 20051103121420947.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 20051103121420947.gif; sourceTree = "<group>"; };
-		25B482001C522B24009A9BBA /* bag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bag.png; sourceTree = "<group>"; };
 		25D9EF131C2A8D84005E03B9 /* YHBaseLinkingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBaseLinkingLabel.h; sourceTree = "<group>"; };
 		25D9EF141C2A8D84005E03B9 /* YHBaseLinkingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHBaseLinkingLabel.m; sourceTree = "<group>"; };
 		25D9EF161C2A93EA005E03B9 /* YHBaseColorTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBaseColorTools.h; sourceTree = "<group>"; };
@@ -335,8 +331,6 @@
 				CE89DB5D1B9D5F8D0006B123 /* AppDelegate.m */,
 				CE89DB5F1B9D5F8D0006B123 /* ViewController.h */,
 				CE89DB601B9D5F8D0006B123 /* ViewController.m */,
-				25B482001C522B24009A9BBA /* bag.png */,
-				25B481FE1C522318009A9BBA /* 20051103121420947.gif */,
 				CE89DB621B9D5F8D0006B123 /* Main.storyboard */,
 				CE89DB651B9D5F8D0006B123 /* Images.xcassets */,
 				CE89DB671B9D5F8D0006B123 /* LaunchScreen.xib */,
@@ -683,11 +677,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25B482011C522B24009A9BBA /* bag.png in Resources */,
 				CE89DB641B9D5F8D0006B123 /* Main.storyboard in Resources */,
 				CE89DB691B9D5F8D0006B123 /* LaunchScreen.xib in Resources */,
 				CE89DB661B9D5F8D0006B123 /* Images.xcassets in Resources */,
-				25B481FF1C522318009A9BBA /* 20051103121420947.gif in Resources */,
 				25682DF11BC7D39D004AED0D /* font.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

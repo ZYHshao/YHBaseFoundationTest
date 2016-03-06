@@ -9,7 +9,6 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
 @end
 
 @implementation ViewController
@@ -17,12 +16,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    UIImageView * imageView = [[UIImageView alloc]initWithFrame:CGRectMake(0,0 , 320, 200)];
-    [imageView yh_setImageName:@"20051103121420947.gif" type:YHGifImageViewDataTypeGif];
-    [self.view addSubview:imageView];
-   
-   
- 
+    
 }
 
 - (void)didReceiveMemoryWarning {
