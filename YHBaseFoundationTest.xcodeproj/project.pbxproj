@@ -18,6 +18,7 @@
 		25B481FD1C52187B009A9BBA /* UIImageView+YHGifImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B481FC1C52187B009A9BBA /* UIImageView+YHGifImage.m */; };
 		25D9EF151C2A8D84005E03B9 /* YHBaseLinkingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D9EF141C2A8D84005E03B9 /* YHBaseLinkingLabel.m */; };
 		25D9EF181C2A93EA005E03B9 /* YHBaseColorTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D9EF171C2A93EA005E03B9 /* YHBaseColorTools.m */; };
+		2865DB611CC0BC8200F80AB8 /* YHBaseCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2865DB601CC0BC8200F80AB8 /* YHBaseCircleView.m */; };
 		8BC2FC1E330ABA30C280BEC3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DBFAC3F747F22811425A971B /* libPods.a */; };
 		CE2E8FEF1BA188E1004927B1 /* YHBaseTestTools.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2E8FEE1BA188E1004927B1 /* YHBaseTestTools.m */; };
 		CE2E8FF21BA18A21004927B1 /* YHBaseTestLock.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2E8FF11BA18A21004927B1 /* YHBaseTestLock.m */; };
@@ -106,6 +107,8 @@
 		25D9EF141C2A8D84005E03B9 /* YHBaseLinkingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHBaseLinkingLabel.m; sourceTree = "<group>"; };
 		25D9EF161C2A93EA005E03B9 /* YHBaseColorTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBaseColorTools.h; sourceTree = "<group>"; };
 		25D9EF171C2A93EA005E03B9 /* YHBaseColorTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHBaseColorTools.m; sourceTree = "<group>"; };
+		2865DB5F1CC0BC8200F80AB8 /* YHBaseCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBaseCircleView.h; sourceTree = "<group>"; };
+		2865DB601CC0BC8200F80AB8 /* YHBaseCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHBaseCircleView.m; sourceTree = "<group>"; };
 		A318A98D430F05EA09A351C0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C60B8F3517AC1B3ADE17E9DD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		CE2E8FED1BA188E1004927B1 /* YHBaseTestTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBaseTestTools.h; sourceTree = "<group>"; };
@@ -570,6 +573,8 @@
 				CE6BDF2F1BA6C04A0070B607 /* YHBaseHtmlView.m */,
 				25D9EF131C2A8D84005E03B9 /* YHBaseLinkingLabel.h */,
 				25D9EF141C2A8D84005E03B9 /* YHBaseLinkingLabel.m */,
+				2865DB5F1CC0BC8200F80AB8 /* YHBaseCircleView.h */,
+				2865DB601CC0BC8200F80AB8 /* YHBaseCircleView.m */,
 			);
 			path = BaseViews;
 			sourceTree = "<group>";
@@ -641,7 +646,7 @@
 		CE89DB4D1B9D5F8D0006B123 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = jaki.zhang;
 				TargetAttributes = {
 					CE89DB541B9D5F8D0006B123 = {
@@ -780,6 +785,7 @@
 				CE2E8FF51BA18E52004927B1 /* UIViewController+YHBaseTest.m in Sources */,
 				CE89DBFE1B9D60560006B123 /* YHBaseSelfServiceDrawView.m in Sources */,
 				CE89DBE81B9D60560006B123 /* NSDictionary+YHBaseJson.m in Sources */,
+				2865DB611CC0BC8200F80AB8 /* YHBaseCircleView.m in Sources */,
 				CE89DC091B9D60560006B123 /* YHBaseTextView.m in Sources */,
 				25D9EF151C2A8D84005E03B9 /* YHBaseLinkingLabel.m in Sources */,
 				CE89DBE61B9D60560006B123 /* NSArray+YHBaseJson.m in Sources */,
@@ -865,6 +871,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -883,7 +890,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos8.3;
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -920,7 +927,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos8.3;
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -933,8 +940,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YHBaseFoundationTestTests/YHBasePCH.pch";
 				INFOPLIST_FILE = YHBaseFoundationTest/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yihui.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -947,8 +955,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YHBaseFoundationTestTests/YHBasePCH.pch";
 				INFOPLIST_FILE = YHBaseFoundationTest/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yihui.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -968,6 +977,7 @@
 				);
 				INFOPLIST_FILE = YHBaseFoundationTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yihui.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YHBaseFoundationTest.app/YHBaseFoundationTest";
 			};
@@ -983,6 +993,7 @@
 				);
 				INFOPLIST_FILE = YHBaseFoundationTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yihui.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YHBaseFoundationTest.app/YHBaseFoundationTest";
 			};

@@ -24,4 +24,5 @@
 #import "YHBaseCalendarView.h"
 #import "YHBaseTableView.h"
 #import "YHBaseLinkingLabel.h"
+#import "YHBaseCircleView.h"
 #endif
