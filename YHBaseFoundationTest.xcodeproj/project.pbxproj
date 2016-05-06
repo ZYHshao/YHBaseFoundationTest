@@ -19,6 +19,9 @@
 		25D9EF151C2A8D84005E03B9 /* YHBaseLinkingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D9EF141C2A8D84005E03B9 /* YHBaseLinkingLabel.m */; };
 		25D9EF181C2A93EA005E03B9 /* YHBaseColorTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D9EF171C2A93EA005E03B9 /* YHBaseColorTools.m */; };
 		2865DB611CC0BC8200F80AB8 /* YHBaseCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2865DB601CC0BC8200F80AB8 /* YHBaseCircleView.m */; };
+		28B65C661CCF3D19007F7682 /* YHBaseHeaderAnimatedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B65C651CCF3D19007F7682 /* YHBaseHeaderAnimatedViewController.m */; };
+		28B65C691CCF3FB0007F7682 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B65C681CCF3FB0007F7682 /* SecondViewController.m */; };
+		28B65C6D1CCF7046007F7682 /* clear.png in Resources */ = {isa = PBXBuildFile; fileRef = 28B65C6C1CCF7046007F7682 /* clear.png */; };
 		8BC2FC1E330ABA30C280BEC3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DBFAC3F747F22811425A971B /* libPods.a */; };
 		CE2E8FEF1BA188E1004927B1 /* YHBaseTestTools.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2E8FEE1BA188E1004927B1 /* YHBaseTestTools.m */; };
 		CE2E8FF21BA18A21004927B1 /* YHBaseTestLock.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2E8FF11BA18A21004927B1 /* YHBaseTestLock.m */; };
@@ -109,6 +112,11 @@
 		25D9EF171C2A93EA005E03B9 /* YHBaseColorTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHBaseColorTools.m; sourceTree = "<group>"; };
 		2865DB5F1CC0BC8200F80AB8 /* YHBaseCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBaseCircleView.h; sourceTree = "<group>"; };
 		2865DB601CC0BC8200F80AB8 /* YHBaseCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHBaseCircleView.m; sourceTree = "<group>"; };
+		28B65C641CCF3D19007F7682 /* YHBaseHeaderAnimatedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBaseHeaderAnimatedViewController.h; sourceTree = "<group>"; };
+		28B65C651CCF3D19007F7682 /* YHBaseHeaderAnimatedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHBaseHeaderAnimatedViewController.m; sourceTree = "<group>"; };
+		28B65C671CCF3FB0007F7682 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		28B65C681CCF3FB0007F7682 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		28B65C6C1CCF7046007F7682 /* clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clear.png; sourceTree = "<group>"; };
 		A318A98D430F05EA09A351C0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C60B8F3517AC1B3ADE17E9DD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		CE2E8FED1BA188E1004927B1 /* YHBaseTestTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBaseTestTools.h; sourceTree = "<group>"; };
@@ -334,6 +342,8 @@
 				CE89DB5D1B9D5F8D0006B123 /* AppDelegate.m */,
 				CE89DB5F1B9D5F8D0006B123 /* ViewController.h */,
 				CE89DB601B9D5F8D0006B123 /* ViewController.m */,
+				28B65C671CCF3FB0007F7682 /* SecondViewController.h */,
+				28B65C681CCF3FB0007F7682 /* SecondViewController.m */,
 				CE89DB621B9D5F8D0006B123 /* Main.storyboard */,
 				CE89DB651B9D5F8D0006B123 /* Images.xcassets */,
 				CE89DB671B9D5F8D0006B123 /* LaunchScreen.xib */,
@@ -428,6 +438,9 @@
 				CE89DB8D1B9D60560006B123 /* YHBaseNavigationController.m */,
 				CE89DB8E1B9D60560006B123 /* YHBaseViewController.h */,
 				CE89DB8F1B9D60560006B123 /* YHBaseViewController.m */,
+				28B65C641CCF3D19007F7682 /* YHBaseHeaderAnimatedViewController.h */,
+				28B65C651CCF3D19007F7682 /* YHBaseHeaderAnimatedViewController.m */,
+				28B65C6C1CCF7046007F7682 /* clear.png */,
 			);
 			path = BaseController;
 			sourceTree = "<group>";
@@ -684,6 +697,7 @@
 			files = (
 				CE89DB641B9D5F8D0006B123 /* Main.storyboard in Resources */,
 				CE89DB691B9D5F8D0006B123 /* LaunchScreen.xib in Resources */,
+				28B65C6D1CCF7046007F7682 /* clear.png in Resources */,
 				CE89DB661B9D5F8D0006B123 /* Images.xcassets in Resources */,
 				25682DF11BC7D39D004AED0D /* font.plist in Resources */,
 			);
@@ -751,6 +765,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28B65C691CCF3FB0007F7682 /* SecondViewController.m in Sources */,
 				CE89DB611B9D5F8D0006B123 /* ViewController.m in Sources */,
 				CE89DC061B9D60560006B123 /* YHBaseListViewItem.m in Sources */,
 				CE89DBF01B9D60560006B123 /* YHBaseManager.m in Sources */,
@@ -801,6 +816,7 @@
 				CE2E8FEF1BA188E1004927B1 /* YHBaseTestTools.m in Sources */,
 				25850ED21C44B29E008C13E3 /* YHBaseSQLiteManager.m in Sources */,
 				252F63931C44D0A9003BCA9F /* YHBaseSQLError.m in Sources */,
+				28B65C661CCF3D19007F7682 /* YHBaseHeaderAnimatedViewController.m in Sources */,
 				CE89DBF51B9D60560006B123 /* YHBaseCoreGraphicsTools.m in Sources */,
 				CE2E8FF21BA18A21004927B1 /* YHBaseTestLock.m in Sources */,
 				CEE5C5BD1B9FD18800B9AD22 /* UIView+Responder.m in Sources */,

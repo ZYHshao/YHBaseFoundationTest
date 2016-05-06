@@ -41,6 +41,7 @@
     //这个函数是默认不实现的 子类可以将设置部分再这个方法中重写
 }
 -(void)YHCreatView{
+    [super YHCreatView];
     _clickHeadArray = [[NSMutableArray alloc]init];
     _privateDataArray = [[NSMutableArray alloc]init];
     for (int i=0; i<_dataArray.count; i++) {

@@ -194,9 +194,10 @@
         [self.delegate YHBaseCalendarViewScrollEndToDate:model];
     }
 }
-
-
--(void)scrollViewDidScroll:(UIScrollView *)scrollView{
+-(void)scrollViewDidEndScrollingAnimation:(UIScrollView *)scrollView{
+    scrollView.userInteractionEnabled=YES;
+}
+-(void)scrollViewWillEndDragging:(UIScrollView *)scrollView withVelocity:(CGPoint)velocity targetContentOffset:(inout CGPoint *)targetContentOffset{
     scrollView.userInteractionEnabled=NO;
 }
 

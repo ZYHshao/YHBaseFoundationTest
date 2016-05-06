@@ -7,11 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "SecondViewController.h"
+@interface ViewController ()<YHBaseCalendarViewDelegate>
 
-@interface ViewController ()
-{
-    YHBaseCircleView * view;
-}
 @end
 
 @implementation ViewController
@@ -19,19 +17,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    view = [[YHBaseCircleView alloc]initWithFrame:CGRectMake(160, 100, 100, 100)];
-//    view.minLineColor = [UIColor blueColor];
-//    view.midLineColor = [UIColor purpleColor];
-//    view.maxLineColor = [UIColor cyanColor];
-    view.progress = 0.5;
-    view.lineWidth = 8;
-    view.textColor = [UIColor blueColor];
-    view.tintColor = [UIColor purpleColor];
+    YHBaseCalendarView * view = [[YHBaseCalendarView alloc]initWithFrame:CGRectMake(0, 64, 320, 400)];
+    view.currentDate = [NSDate date];
+    view.backgroundColor = [UIColor redColor];
+    view.delegate=self;
     [self.view addSubview:view];
 }
--(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    [view setProgress:arc4random()%100/100.0 animated:YES];
-}
+//-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+//    [self.navigationController pushViewController:[[SecondViewController alloc]init] animated:YES];
+////    [self presentViewController:[[SecondViewController alloc]init] animated:YES completion:nil];
+//}
 
 
 - (void)didReceiveMemoryWarning {
