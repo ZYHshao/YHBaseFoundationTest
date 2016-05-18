@@ -16,4 +16,5 @@ typedef enum {
 @property(nonatomic,assign)YHBaseErrorType errorType;
 //初始化方法
 -(instancetype)initWithType:(YHBaseErrorType)type;
+__PROPERTY_AT_STRONG__(NSString * , msg);
 @end

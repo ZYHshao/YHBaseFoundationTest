@@ -18,9 +18,12 @@
 		25B481FD1C52187B009A9BBA /* UIImageView+YHGifImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B481FC1C52187B009A9BBA /* UIImageView+YHGifImage.m */; };
 		25D9EF151C2A8D84005E03B9 /* YHBaseLinkingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D9EF141C2A8D84005E03B9 /* YHBaseLinkingLabel.m */; };
 		25D9EF181C2A93EA005E03B9 /* YHBaseColorTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D9EF171C2A93EA005E03B9 /* YHBaseColorTools.m */; };
+		28074DDC1CEC1BB8007B0C2E /* YHBaseNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 28074DDB1CEC1BB8007B0C2E /* YHBaseNetManager.m */; };
+		28074DDE1CEC1C7A007B0C2E /* YHBaseNetPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28074DDD1CEC1C7A007B0C2E /* YHBaseNetPlist.plist */; };
+		28074DE11CEC2E33007B0C2E /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 28074DE01CEC2E33007B0C2E /* TestModel.m */; };
+		28074DE41CEC3042007B0C2E /* YHBaseNetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 28074DE31CEC3042007B0C2E /* YHBaseNetModel.m */; };
 		2865DB611CC0BC8200F80AB8 /* YHBaseCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2865DB601CC0BC8200F80AB8 /* YHBaseCircleView.m */; };
 		28B65C661CCF3D19007F7682 /* YHBaseHeaderAnimatedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B65C651CCF3D19007F7682 /* YHBaseHeaderAnimatedViewController.m */; };
-		28B65C691CCF3FB0007F7682 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B65C681CCF3FB0007F7682 /* SecondViewController.m */; };
 		28B65C6D1CCF7046007F7682 /* clear.png in Resources */ = {isa = PBXBuildFile; fileRef = 28B65C6C1CCF7046007F7682 /* clear.png */; };
 		8BC2FC1E330ABA30C280BEC3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DBFAC3F747F22811425A971B /* libPods.a */; };
 		CE2E8FEF1BA188E1004927B1 /* YHBaseTestTools.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2E8FEE1BA188E1004927B1 /* YHBaseTestTools.m */; };
@@ -110,12 +113,17 @@
 		25D9EF141C2A8D84005E03B9 /* YHBaseLinkingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHBaseLinkingLabel.m; sourceTree = "<group>"; };
 		25D9EF161C2A93EA005E03B9 /* YHBaseColorTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBaseColorTools.h; sourceTree = "<group>"; };
 		25D9EF171C2A93EA005E03B9 /* YHBaseColorTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHBaseColorTools.m; sourceTree = "<group>"; };
+		28074DDA1CEC1BB8007B0C2E /* YHBaseNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBaseNetManager.h; sourceTree = "<group>"; };
+		28074DDB1CEC1BB8007B0C2E /* YHBaseNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHBaseNetManager.m; sourceTree = "<group>"; };
+		28074DDD1CEC1C7A007B0C2E /* YHBaseNetPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = YHBaseNetPlist.plist; sourceTree = "<group>"; };
+		28074DDF1CEC2E33007B0C2E /* TestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
+		28074DE01CEC2E33007B0C2E /* TestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
+		28074DE21CEC3042007B0C2E /* YHBaseNetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBaseNetModel.h; sourceTree = "<group>"; };
+		28074DE31CEC3042007B0C2E /* YHBaseNetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHBaseNetModel.m; sourceTree = "<group>"; };
 		2865DB5F1CC0BC8200F80AB8 /* YHBaseCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBaseCircleView.h; sourceTree = "<group>"; };
 		2865DB601CC0BC8200F80AB8 /* YHBaseCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHBaseCircleView.m; sourceTree = "<group>"; };
 		28B65C641CCF3D19007F7682 /* YHBaseHeaderAnimatedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBaseHeaderAnimatedViewController.h; sourceTree = "<group>"; };
 		28B65C651CCF3D19007F7682 /* YHBaseHeaderAnimatedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHBaseHeaderAnimatedViewController.m; sourceTree = "<group>"; };
-		28B65C671CCF3FB0007F7682 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		28B65C681CCF3FB0007F7682 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		28B65C6C1CCF7046007F7682 /* clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clear.png; sourceTree = "<group>"; };
 		A318A98D430F05EA09A351C0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C60B8F3517AC1B3ADE17E9DD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -294,6 +302,19 @@
 			path = YHBaseFontCategory;
 			sourceTree = "<group>";
 		};
+		28074DD91CEC1BA0007B0C2E /* YHBaseNetManager */ = {
+			isa = PBXGroup;
+			children = (
+				28074DDA1CEC1BB8007B0C2E /* YHBaseNetManager.h */,
+				28074DDB1CEC1BB8007B0C2E /* YHBaseNetManager.m */,
+				28074DE21CEC3042007B0C2E /* YHBaseNetModel.h */,
+				28074DE31CEC3042007B0C2E /* YHBaseNetModel.m */,
+				28074DDD1CEC1C7A007B0C2E /* YHBaseNetPlist.plist */,
+			);
+			name = YHBaseNetManager;
+			path = BaseManagers/YHBaseNetManager;
+			sourceTree = "<group>";
+		};
 		36576498ECA6A17148364D4F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -342,8 +363,8 @@
 				CE89DB5D1B9D5F8D0006B123 /* AppDelegate.m */,
 				CE89DB5F1B9D5F8D0006B123 /* ViewController.h */,
 				CE89DB601B9D5F8D0006B123 /* ViewController.m */,
-				28B65C671CCF3FB0007F7682 /* SecondViewController.h */,
-				28B65C681CCF3FB0007F7682 /* SecondViewController.m */,
+				28074DDF1CEC2E33007B0C2E /* TestModel.h */,
+				28074DE01CEC2E33007B0C2E /* TestModel.m */,
 				CE89DB621B9D5F8D0006B123 /* Main.storyboard */,
 				CE89DB651B9D5F8D0006B123 /* Images.xcassets */,
 				CE89DB671B9D5F8D0006B123 /* LaunchScreen.xib */,
@@ -387,6 +408,7 @@
 				CE89DB841B9D60560006B123 /* BaseCategory */,
 				CE89DB8B1B9D60560006B123 /* BaseController */,
 				CE89DB901B9D60560006B123 /* BaseHeader */,
+				28074DD91CEC1BA0007B0C2E /* YHBaseNetManager */,
 				CE89DB921B9D60560006B123 /* BaseManagers */,
 				CE89DBA71B9D60560006B123 /* BaseModel */,
 				CE89DBAC1B9D60560006B123 /* BaseProcotols */,
@@ -700,6 +722,7 @@
 				28B65C6D1CCF7046007F7682 /* clear.png in Resources */,
 				CE89DB661B9D5F8D0006B123 /* Images.xcassets in Resources */,
 				25682DF11BC7D39D004AED0D /* font.plist in Resources */,
+				28074DDE1CEC1C7A007B0C2E /* YHBaseNetPlist.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -765,7 +788,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28B65C691CCF3FB0007F7682 /* SecondViewController.m in Sources */,
 				CE89DB611B9D5F8D0006B123 /* ViewController.m in Sources */,
 				CE89DC061B9D60560006B123 /* YHBaseListViewItem.m in Sources */,
 				CE89DBF01B9D60560006B123 /* YHBaseManager.m in Sources */,
@@ -795,6 +817,7 @@
 				CE89DBFA1B9D60560006B123 /* YHBaseStringTools.m in Sources */,
 				CE89DC071B9D60560006B123 /* YHBaseScrollView.m in Sources */,
 				CE89DBE41B9D60560006B123 /* AudioStreamer.m in Sources */,
+				28074DE41CEC3042007B0C2E /* YHBaseNetModel.m in Sources */,
 				252F63901C44BA51003BCA9F /* YHBaseSQLiteContext.m in Sources */,
 				CE89DBFC1B9D60560006B123 /* YHBaseCalendarView.m in Sources */,
 				CE2E8FF51BA18E52004927B1 /* UIViewController+YHBaseTest.m in Sources */,
@@ -802,8 +825,10 @@
 				CE89DBE81B9D60560006B123 /* NSDictionary+YHBaseJson.m in Sources */,
 				2865DB611CC0BC8200F80AB8 /* YHBaseCircleView.m in Sources */,
 				CE89DC091B9D60560006B123 /* YHBaseTextView.m in Sources */,
+				28074DE11CEC2E33007B0C2E /* TestModel.m in Sources */,
 				25D9EF151C2A8D84005E03B9 /* YHBaseLinkingLabel.m in Sources */,
 				CE89DBE61B9D60560006B123 /* NSArray+YHBaseJson.m in Sources */,
+				28074DDC1CEC1BB8007B0C2E /* YHBaseNetManager.m in Sources */,
 				25B481FD1C52187B009A9BBA /* UIImageView+YHGifImage.m in Sources */,
 				CE89DBE91B9D60560006B123 /* YHBaseNavigationController.m in Sources */,
 				CE89DBE51B9D60560006B123 /* YHBaseAVPlayer.m in Sources */,

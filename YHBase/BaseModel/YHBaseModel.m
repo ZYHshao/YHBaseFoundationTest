@@ -53,7 +53,9 @@
     NSMutableDictionary * dic = [[NSMutableDictionary alloc]init];
     NSArray * arr = [NSArray arrayWithArray:[self getAllPropertys]];
     for (int i=0; i<arr.count; i++) {
-        [dic setObject:[self valueForKey:arr[i]] forKey:arr[i]];
+        if ([self valueForKey:arr[i]]!=nil) {
+            [dic setObject:[self valueForKey:arr[i]] forKey:[arr[i] substringFromIndex:1]];
+        }
     }
     return dic;
 }

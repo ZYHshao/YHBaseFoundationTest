@@ -7,8 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "SecondViewController.h"
-@interface ViewController ()<YHBaseCalendarViewDelegate>
+#import "TestModel.h"
+@interface ViewController ()
 
 @end
 
@@ -17,11 +17,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    YHBaseCalendarView * view = [[YHBaseCalendarView alloc]initWithFrame:CGRectMake(0, 64, 320, 400)];
-    view.currentDate = [NSDate date];
-    view.backgroundColor = [UIColor redColor];
-    view.delegate=self;
-    [self.view addSubview:view];
+    TestModel * model = [[TestModel alloc]init];
+    model.one = @"22";
+    model.two = @"33";
+    [[YHBaseNetManager sharedTheSingletion]netForRequestName:@"weather" withParam:model forDataModel:model completion:^(BOOL success, YHBaseError *error) {
+        
+    }];
+    
 }
 //-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
 //    [self.navigationController pushViewController:[[SecondViewController alloc]init] animated:YES];
