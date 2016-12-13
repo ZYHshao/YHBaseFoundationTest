@@ -72,9 +72,11 @@
         [heightArray addObject:[NSNumber numberWithFloat:height]];
         NSDictionary * timeDic = [info objectForKey:(__bridge NSString *)kCGImagePropertyGIFDictionary];
         CGFloat time = [[timeDic objectForKey:(__bridge NSString *)kCGImagePropertyGIFDelayTime]floatValue];
+        CFRelease((__bridge CFTypeRef)(info));
         allTime+=time;
         [timeArray addObject:[NSNumber numberWithFloat:time]];
     }
+    CFRelease(source);
     dataBlock(imageArray,timeArray,allTime,widthArray,heightArray);
 }
 
